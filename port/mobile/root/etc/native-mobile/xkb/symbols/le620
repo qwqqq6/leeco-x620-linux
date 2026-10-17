@@ -1,0 +1,5 @@
+// The native panel controller handles the real power button once.
+partial alphanumeric_keys
+xkb_symbols "nopower" {
+    replace key <POWR> { [ VoidSymbol ] };
+};

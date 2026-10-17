@@ -1,0 +1,835 @@
+[
+  {
+    "source": "bin/6620_launcher",
+    "destination": "system/bin/6620_launcher",
+    "bytes": 35800,
+    "sha256": "7d1be69b660637572964d94267dbe7b97becd3df7523325001919ff4e1b6c9d8",
+    "mode": "0o755"
+  },
+  {
+    "source": "bin/linker64",
+    "destination": "system/bin/linker64",
+    "bytes": 274168,
+    "sha256": "13cdcb9e4d095651fafc7c596bf6d6e8a98f8ce134bacd7107d73c0e79eb12b2",
+    "mode": "0o755"
+  },
+  {
+    "source": "bin/wmt_loader",
+    "destination": "system/bin/wmt_loader",
+    "bytes": 10096,
+    "sha256": "31e797e15585a88eed0ead3339ba3535841c7c12d8013286ac79d5952503720c",
+    "mode": "0o755"
+  },
+  {
+    "source": "etc/firmware/ANT_RAM_CODE_CONN_V1.BIN",
+    "destination": "system/etc/firmware/ANT_RAM_CODE_CONN_V1.BIN",
+    "bytes": 33532,
+    "sha256": "970f5ea3329b33f11da6d11ad3f83e1399b2c0c5851de196c4496e308b52699d",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/MNL.bin",
+    "destination": "system/etc/firmware/MNL.bin",
+    "bytes": 824920,
+    "sha256": "0da83396272e377c27e0ff36ee04d1d3d0f52d231064e406ae8b0c0f810378cf",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/ROMv3_patch_1_0_hdr.bin",
+    "destination": "system/etc/firmware/ROMv3_patch_1_0_hdr.bin",
+    "bytes": 195344,
+    "sha256": "6d62b7ee26801451d672a7e23d3f24a4703f13a7e69dd6afb69901224aae2939",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/ROMv3_patch_1_1_hdr.bin",
+    "destination": "system/etc/firmware/ROMv3_patch_1_1_hdr.bin",
+    "bytes": 46092,
+    "sha256": "2f7cc0b18d6836cc2836dbf2c56885e2b8a7dfb5f215f6759699d0a69ca232ca",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/WIFI_RAM_CODE_6797",
+    "destination": "system/etc/firmware/WIFI_RAM_CODE_6797",
+    "bytes": 397744,
+    "sha256": "8898b2d5313c55e73f5ec58291f09c83046e5ad28f0cf48261c258b8128c8c6d",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/WMT_SOC.cfg",
+    "destination": "system/etc/firmware/WMT_SOC.cfg",
+    "bytes": 80,
+    "sha256": "f4a59b622a4e0c1470e475ce33f3edae43b27f1fbdeba54dc7cf07503d132880",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/catcher_filter_1_ulwctg_n.bin",
+    "destination": "system/etc/firmware/catcher_filter_1_ulwctg_n.bin",
+    "bytes": 8737,
+    "sha256": "98026aeaea0ff9a50ae9283bac90d3dd224e592667216192f4aec25ac2f4cdd3",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/catcher_filter_3_3g_n.bin",
+    "destination": "system/etc/firmware/catcher_filter_3_3g_n.bin",
+    "bytes": 7254,
+    "sha256": "a03405e7ed1df884abb63117dfa8bfb15cdbf248c0b0f20b92b48040f1a25810",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/dsp_1_ulwctg_n.bin",
+    "destination": "system/etc/firmware/dsp_1_ulwctg_n.bin",
+    "bytes": 975232,
+    "sha256": "1f7b3cba4c15b38fd925fa540905687d5a3690e6ec93e5c59e59af2824caef98",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/em_filter_1_ulwctg_n.bin",
+    "destination": "system/etc/firmware/em_filter_1_ulwctg_n.bin",
+    "bytes": 2136,
+    "sha256": "42423f97c7a5690f970d3a49040fae52996326cd1ac26074df8002f5306dc5c2",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/modem_1_ulwctg_n.img",
+    "destination": "system/etc/firmware/modem_1_ulwctg_n.img",
+    "bytes": 15863296,
+    "sha256": "f8b89752727d84f15bd8d053736c2134b8a72feedc882c3892a97f7dba4bb310",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/modem_3_3g_n.img",
+    "destination": "system/etc/firmware/modem_3_3g_n.img",
+    "bytes": 4075120,
+    "sha256": "b5d6c278f71f0573f9fd1ea28efdf3b0837d1146d316aea95aa74c395958fe6c",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v1_coeff.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v1_coeff.bin",
+    "bytes": 1092,
+    "sha256": "d32f4a16b35f950ed1a57f2ae88f77ac4b5674d5c4210b65f6fe7912901fd8db",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v1_patch.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v1_patch.bin",
+    "bytes": 1028,
+    "sha256": "ba35c74d26660729caf83b41a567e700f633b6c99384dfa6cbb3c17ceb767e26",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v2_coeff.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v2_coeff.bin",
+    "bytes": 2,
+    "sha256": "6c179f21e6f62b629055d8ab40f454ed02e48b68563913473b857d3638e23b28",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v3_coeff.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v3_coeff.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v3_patch.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v3_patch.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v4_coeff.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v4_coeff.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v4_patch.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v4_patch.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v5_coeff.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v5_coeff.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mt6631/mt6631_fm_v5_patch.bin",
+    "destination": "system/etc/firmware/mt6631/mt6631_fm_v5_patch.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mxt308u_v10ab.fw",
+    "destination": "system/etc/firmware/mxt308u_v10ab.fw",
+    "bytes": 144852,
+    "sha256": "c19b336c7827a7b3d00d26282c0f71844ba0e3057303fc742f5b91525e0b307a",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/mxt308u_v10ab.raw",
+    "destination": "system/etc/firmware/mxt308u_v10ab.raw",
+    "bytes": 6088,
+    "sha256": "059124bb726937a47ebe7461f03503da154ef50e2fd7ac93d9632d8c51e303da",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_deepidle.bin",
+    "destination": "system/etc/firmware/pcm_deepidle.bin",
+    "bytes": 6723,
+    "sha256": "e9066110b607379cd73560804bf195f2cd9ea1e799f130f5638c09c446eedcd8",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_deepidle_by_mp1.bin",
+    "destination": "system/etc/firmware/pcm_deepidle_by_mp1.bin",
+    "bytes": 6727,
+    "sha256": "36267de8a55699de516d61b1d9e64591a2b7d4f187d3460cfa93c81b3e1e4cf6",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_sodi.bin",
+    "destination": "system/etc/firmware/pcm_sodi.bin",
+    "bytes": 6423,
+    "sha256": "dda8cca1e110d57137afb8ef4957da758c19d38db45ea2bb30bc7133cc122ae4",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_sodi_by_mp1.bin",
+    "destination": "system/etc/firmware/pcm_sodi_by_mp1.bin",
+    "bytes": 6427,
+    "sha256": "8649d6db309753fd017bcd778568e093af623bc0f4acc2a20efa8c8d4c775ffd",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_suspend.bin",
+    "destination": "system/etc/firmware/pcm_suspend.bin",
+    "bytes": 7378,
+    "sha256": "d6e8a0b8851e78e95891c995605ffbf210eade56583b14cf6b4a67e7d770f4e0",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_suspend_by_mp1.bin",
+    "destination": "system/etc/firmware/pcm_suspend_by_mp1.bin",
+    "bytes": 7382,
+    "sha256": "f8b9e333423d5d051302072cb853d50ab4e13a8528b407b9efdc92fe28648807",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_vcorefs_hpm.bin",
+    "destination": "system/etc/firmware/pcm_vcorefs_hpm.bin",
+    "bytes": 8085,
+    "sha256": "c0f676003ffa69341402f29a58a1d1d753fd1035d3a52f5cc7306f305412e584",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_vcorefs_lpm.bin",
+    "destination": "system/etc/firmware/pcm_vcorefs_lpm.bin",
+    "bytes": 8261,
+    "sha256": "b756fb01239ea5d857d01e0516a86a12b41ddf4fa04006297fef93e6b1a4c3c3",
+    "mode": "0o644"
+  },
+  {
+    "source": "etc/firmware/pcm_vcorefs_ultra.bin",
+    "destination": "system/etc/firmware/pcm_vcorefs_ultra.bin",
+    "bytes": 8087,
+    "sha256": "a52ea060d30110a52c18d31ab70b3b9600c90d67287a1acb83ebbd41c1966730",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libc++.so",
+    "destination": "system/lib64/libc++.so",
+    "bytes": 944056,
+    "sha256": "c2f3c9e43598d6bb23f3c48765952075a4b241c4f9d219813d2861f8c3648ce6",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libc.so",
+    "destination": "system/lib64/libc.so",
+    "bytes": 1041456,
+    "sha256": "c03c7277c867faac7e1b17b612e3f5a6b894bc474da00357fab15f61b1e3b6c0",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libcutils.so",
+    "destination": "system/lib64/libcutils.so",
+    "bytes": 96128,
+    "sha256": "8a71d279db083911a93b6f65dd501ff02dbad05a48397d42fa013f879d92530d",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libdl.so",
+    "destination": "system/lib64/libdl.so",
+    "bytes": 5696,
+    "sha256": "8055a5833701a7a74734db2530cefd8d6b68ea141ba735020a7752b38de8cd4b",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/liblog.so",
+    "destination": "system/lib64/liblog.so",
+    "bytes": 42808,
+    "sha256": "86048ad3a76264b7d689117ff4550e4e67ae976f7b4c770b868d47709d9f6c7a",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libm.so",
+    "destination": "system/lib64/libm.so",
+    "bytes": 235544,
+    "sha256": "20d9396ae443422d1dee675ae0fbb345af3f721bbe1de3b16cb0f6ff365fe2a7",
+    "mode": "0o644"
+  },
+  {
+    "source": "bin/linker",
+    "destination": "usr/local/lib/native-gnss/system/bin/linker",
+    "bytes": 195368,
+    "sha256": "9627864e81ed38d787539de7562a1e115411fff8ae5f2b62f261de17e59c286a",
+    "mode": "0o500"
+  },
+  {
+    "source": "lib/libc++.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libc++.so",
+    "bytes": 575088,
+    "sha256": "e8ab4768a48f8d78a026f6878dcc497e881918262e440be9fcc0bdf4f953199f",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libc.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libc.so",
+    "bytes": 684492,
+    "sha256": "6a68f02225fe1f44009c5ee7b61af1823e663a647850aa98e73d5e6e80b467e2",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libcrypto.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libcrypto.so",
+    "bytes": 674056,
+    "sha256": "655bc14f22e392fcd3b1252564fc7c580cf9cf726ad830f078a0e05b6dd0d922",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libcurl.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libcurl.so",
+    "bytes": 247424,
+    "sha256": "e5bd18c4230eec526d2276df3d5d56a82209a28a04d95fbe46345f432116b71f",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libcustom_nvram.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libcustom_nvram.so",
+    "bytes": 71372,
+    "sha256": "a1741b3c24cbecb82d1a3bf7b9157c822fb4bd48df2f83f55c46a0ed057986ac",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libcutils.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libcutils.so",
+    "bytes": 67304,
+    "sha256": "9071d7284a0f1de24966ffb1bdc7acab453e7863caa2eb1b538c55f99b4ae04c",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libdl.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libdl.so",
+    "bytes": 9492,
+    "sha256": "1e1a38b54d9fc610bd925e267b28e0caa780a8f2ff97d02174c998d51b9e8d36",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/liblog.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/liblog.so",
+    "bytes": 34412,
+    "sha256": "feef803b7a17863e166f1f6cd7001e0f27e54f0927fc69f1b8207924935d519b",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libm.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libm.so",
+    "bytes": 132824,
+    "sha256": "d4ee88d1129ab8287c93b8d498637858e48bb914b184b231f7f9ff62fd1d1235",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libmnl.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libmnl.so",
+    "bytes": 2338200,
+    "sha256": "1142cc3a1115447ca4bb70a845502d4df9f4b6e69215851e24bc7edc92313a7d",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libnl.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libnl.so",
+    "bytes": 77468,
+    "sha256": "9b23c5a570d4615f0de70635c2c1d5befcd019736a0c12ad35b592fd633366e3",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libnvram.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libnvram.so",
+    "bytes": 75620,
+    "sha256": "b209286cc2c9e0ff87b656fbcb3b2f379f01e16ea5d1e0e2cd7abacf60f12acc",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libnvram_platform.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libnvram_platform.so",
+    "bytes": 13904,
+    "sha256": "a4ee17c8bb11cec69cebb3a57578e0105eba203815ca434b707fcf3638e922ab",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libnvram_sec.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libnvram_sec.so",
+    "bytes": 17996,
+    "sha256": "4797fe53ae75890954234baefeeb86f00a65e038d766611db13c15e15c68ec07",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libssl.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libssl.so",
+    "bytes": 181808,
+    "sha256": "5507205d95b3f56dfba1efd84f4460b9a4e8dc3829011aa768cfee1a21fdc673",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libstdc++.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libstdc++.so",
+    "bytes": 21972,
+    "sha256": "59cf3e18da0560e5c04b3769a78785f4fed1ec10359348d28ea3cd6d3aeaa49b",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libsysutils.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libsysutils.so",
+    "bytes": 38448,
+    "sha256": "1793009d01af90fca5b17bb23e54461471b743878360de3e37a769154a42369f",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib/libz.so",
+    "destination": "usr/local/lib/native-gnss/system/lib/libz.so",
+    "bytes": 108128,
+    "sha256": "a4a6dbfe729aa0e758caf85503d221a23acc6d935ff8f62bc8fb038b0ad00b81",
+    "mode": "0o400"
+  },
+  {
+    "source": "xbin/mnld",
+    "destination": "usr/local/lib/native-gnss/system/xbin/mnld",
+    "bytes": 167048,
+    "sha256": "e546e02748ea5a6362499cf77032f766ffa781fe695da237776e5edf33aef658",
+    "mode": "0o500"
+  },
+  {
+    "source": "bin/linker64",
+    "destination": "usr/local/lib/native-gpu/system/bin/linker64",
+    "bytes": 274168,
+    "sha256": "13cdcb9e4d095651fafc7c596bf6d6e8a98f8ce134bacd7107d73c0e79eb12b2",
+    "mode": "0o500"
+  },
+  {
+    "source": "lib64/egl/libGLES_mali.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/egl/libGLES_mali.so",
+    "bytes": 23494624,
+    "sha256": "a22766932f24b90f0c3a4ba73d8c5dfe71c7499208e49a6a26bb03f899479315",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/hw/gralloc.mt6797.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/hw/gralloc.mt6797.so",
+    "bytes": 55752,
+    "sha256": "fcabd667f1edc7556726dad4eebb158a2d17cf77f6db49ab88d14c398e2a8abf",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libEGL.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libEGL.so",
+    "bytes": 903368,
+    "sha256": "40b08e1920967f07fd927362b91a502e8460a3e6f12f96a9cabd1898872c542f",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libGLES_trace.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libGLES_trace.so",
+    "bytes": 865800,
+    "sha256": "d9a86247072c1991258738792ac75f69b10af3f7ecd88d7b26920e8a75d6017c",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libGLESv1_CM.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libGLESv1_CM.so",
+    "bytes": 38464,
+    "sha256": "31f90789f88baecd1bb1e242c61ddf227a63a9102f4443a02a36060506ceae1d",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libaed.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libaed.so",
+    "bytes": 112032,
+    "sha256": "def07ea4c9f0bf5069dc9b36f0fffe6ec69a438dac53cbb83213c0a31b78c299",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libbacktrace.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libbacktrace.so",
+    "bytes": 46808,
+    "sha256": "f7599843b78cb36bfca200f09cafc16273992ffa740d29ec36804d4f59c4d9ff",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libbase.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libbase.so",
+    "bytes": 38712,
+    "sha256": "c1dee3cc5264b8e6dbb1a53f86d7abadfece60bcd80f41b9a0417ee0702c95d8",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libbinder.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libbinder.so",
+    "bytes": 325424,
+    "sha256": "18cacf6aabd5442e0b47bb0be088da45f42fb4f0709fba0f9e0a2818b5cc9139",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libbwc.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libbwc.so",
+    "bytes": 67376,
+    "sha256": "6c28300fe1ba29d64ae04e7d52db9cd8351ee41c5cf04c036890f126f0e601ab",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libc++.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libc++.so",
+    "bytes": 944056,
+    "sha256": "c2f3c9e43598d6bb23f3c48765952075a4b241c4f9d219813d2861f8c3648ce6",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libc.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libc.so",
+    "bytes": 1041456,
+    "sha256": "c03c7277c867faac7e1b17b612e3f5a6b894bc474da00357fab15f61b1e3b6c0",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libcutils.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libcutils.so",
+    "bytes": 96128,
+    "sha256": "8a71d279db083911a93b6f65dd501ff02dbad05a48397d42fa013f879d92530d",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libdl.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libdl.so",
+    "bytes": 5696,
+    "sha256": "8055a5833701a7a74734db2530cefd8d6b68ea141ba735020a7752b38de8cd4b",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libdpframework.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libdpframework.so",
+    "bytes": 776080,
+    "sha256": "55094813f6c365fe25c4d7a347857ab6d7b4210368a392dfa47b6dd90ca13fa4",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libged.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libged.so",
+    "bytes": 26352,
+    "sha256": "60818393a80c88ef0402a92d368e1cc841a16cf0cd0c8d1ab99bc40cabc500cc",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libgpu_aux.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libgpu_aux.so",
+    "bytes": 38792,
+    "sha256": "571aa16b6de220c858a9ff085def8b792446b611a4ef109bea62a457ec0a1f18",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libgralloc_extra.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libgralloc_extra.so",
+    "bytes": 18136,
+    "sha256": "2dfa83e862775b0f126055524bfbf47a299f868bae919db11ec51505958dd32e",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libhardware.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libhardware.so",
+    "bytes": 14040,
+    "sha256": "4184aed59e8d9be7bd384d92beda031f41b22c33d03aaef0476509ec018dff23",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libion.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libion.so",
+    "bytes": 9864,
+    "sha256": "8ad2a019c87d716f87b0dfa79acce94183907bb81ce99e77a8fe9330eac8175c",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libion_mtk.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libion_mtk.so",
+    "bytes": 9864,
+    "sha256": "ee07687d6baaccdc724a1c9680a36c22d0059151e68bb8a2d288af2f10fb4914",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/liblog.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/liblog.so",
+    "bytes": 42808,
+    "sha256": "86048ad3a76264b7d689117ff4550e4e67ae976f7b4c770b868d47709d9f6c7a",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libm.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libm.so",
+    "bytes": 235544,
+    "sha256": "20d9396ae443422d1dee675ae0fbb345af3f721bbe1de3b16cb0f6ff365fe2a7",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libm4u.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libm4u.so",
+    "bytes": 13960,
+    "sha256": "af7fc8a1182d19c09faff58134822942699c9e3f2877c5f0adfb5f8dcb544527",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libmrdump.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libmrdump.so",
+    "bytes": 9944,
+    "sha256": "4e0f6119292a8c2eaf708c815438db20e75045a361c67fa6e2eb3b308aab09a7",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libmtk_drvb.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libmtk_drvb.so",
+    "bytes": 18160,
+    "sha256": "adb347a6cc866c497f94b70198c20ef80101a44cd59223b26f38aafa4cd67a49",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libnetutils.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libnetutils.so",
+    "bytes": 54928,
+    "sha256": "242569fb89ec5f433dff5b740860725466a4c69df987033a6810ab7d9dca8fce",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libpcre.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libpcre.so",
+    "bytes": 108200,
+    "sha256": "9ccf205788e989f777af7ab3bf47975cfa6fc71a53c3a23029d8e44d50c6e1b7",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libpq_prot.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libpq_prot.so",
+    "bytes": 120632,
+    "sha256": "6a18ca9b796c5e48e87b1ad1dd373e588414d8f8125589f352c5395d0ce32310",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libpqservice.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libpqservice.so",
+    "bytes": 117440,
+    "sha256": "afdc671f261038afeb5d972f72774ef1f5aa9bc0353a3b3fd5e2e2e14409d267",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libprotobuf-cpp-lite.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libprotobuf-cpp-lite.so",
+    "bytes": 149296,
+    "sha256": "0347fce8b988481b7a1554ec9bb01b29cadcf275d3cf28c69c514544056f07ef",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libselinux.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libselinux.so",
+    "bytes": 92008,
+    "sha256": "2b6d8816000a3a4c0617bdb0936488b0cff51a91dccb9bb8b9d90dbe7bc90e23",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libstdc++.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libstdc++.so",
+    "bytes": 13960,
+    "sha256": "7874889a025b51e24355abbff8f391968c4337b85bad15e7ae6db41fcce7d6c7",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libsync.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libsync.so",
+    "bytes": 5768,
+    "sha256": "cb8e4ca92803b0b1bbca2c3b80f0dfc20d451e24c1376b6150c487995f6bf3d8",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libui.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libui.so",
+    "bytes": 124728,
+    "sha256": "45018730027702de72e54e87354ffa939fcaa2732e256dc0941c74f0f1298f2f",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libunwind.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libunwind.so",
+    "bytes": 116520,
+    "sha256": "6f4151b052062a4f1943fa8d1027e03f5527313d8f44112eae1a6353e3e66292",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libutils.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libutils.so",
+    "bytes": 149304,
+    "sha256": "926c356fa359ff6d5b9e3a42ca75e2b616e536daacb1120c6ca41dc1f3cb4e6d",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libvcodec_utility.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libvcodec_utility.so",
+    "bytes": 83888,
+    "sha256": "bb012cbdb76b95280a3040faf7d0c030f176476ef62b3eded5fd9ac103e9bb79",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libvcodecdrv.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libvcodecdrv.so",
+    "bytes": 610088,
+    "sha256": "2a7f70a06c0b886a4ad056502c2fa2e8eb8a6ab92f473e624e437def87fcab25",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libz.so",
+    "destination": "usr/local/lib/native-gpu/system/lib64/libz.so",
+    "bytes": 116536,
+    "sha256": "a45014ccaa075120d867a9e245251a899cbbe066768c9f9682f12163199a04eb",
+    "mode": "0o400"
+  },
+  {
+    "source": "lib64/libaed.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libaed.so",
+    "bytes": 112032,
+    "sha256": "def07ea4c9f0bf5069dc9b36f0fffe6ec69a438dac53cbb83213c0a31b78c299",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libbacktrace.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libbacktrace.so",
+    "bytes": 46808,
+    "sha256": "f7599843b78cb36bfca200f09cafc16273992ffa740d29ec36804d4f59c4d9ff",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libbase.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libbase.so",
+    "bytes": 38712,
+    "sha256": "c1dee3cc5264b8e6dbb1a53f86d7abadfece60bcd80f41b9a0417ee0702c95d8",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libc++.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libc++.so",
+    "bytes": 944056,
+    "sha256": "c2f3c9e43598d6bb23f3c48765952075a4b241c4f9d219813d2861f8c3648ce6",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libc.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libc.so",
+    "bytes": 1041456,
+    "sha256": "c03c7277c867faac7e1b17b612e3f5a6b894bc474da00357fab15f61b1e3b6c0",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libcutils.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libcutils.so",
+    "bytes": 96128,
+    "sha256": "8a71d279db083911a93b6f65dd501ff02dbad05a48397d42fa013f879d92530d",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libdl.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libdl.so",
+    "bytes": 5696,
+    "sha256": "8055a5833701a7a74734db2530cefd8d6b68ea141ba735020a7752b38de8cd4b",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/liblog.so",
+    "destination": "usr/local/lib/native-tfa/lib64/liblog.so",
+    "bytes": 42808,
+    "sha256": "86048ad3a76264b7d689117ff4550e4e67ae976f7b4c770b868d47709d9f6c7a",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libm.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libm.so",
+    "bytes": 235544,
+    "sha256": "20d9396ae443422d1dee675ae0fbb345af3f721bbe1de3b16cb0f6ff365fe2a7",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libmrdump.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libmrdump.so",
+    "bytes": 9944,
+    "sha256": "4e0f6119292a8c2eaf708c815438db20e75045a361c67fa6e2eb3b308aab09a7",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libpcre.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libpcre.so",
+    "bytes": 108200,
+    "sha256": "9ccf205788e989f777af7ab3bf47975cfa6fc71a53c3a23029d8e44d50c6e1b7",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libselinux.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libselinux.so",
+    "bytes": 92008,
+    "sha256": "2b6d8816000a3a4c0617bdb0936488b0cff51a91dccb9bb8b9d90dbe7bc90e23",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libstdc++.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libstdc++.so",
+    "bytes": 13960,
+    "sha256": "7874889a025b51e24355abbff8f391968c4337b85bad15e7ae6db41fcce7d6c7",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libtfa9890_interface.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libtfa9890_interface.so",
+    "bytes": 133320,
+    "sha256": "b7ee207ce1ad9df09064d1f185951ec2fafd6493151d33fa2ade12c793f9fcda",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libunwind.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libunwind.so",
+    "bytes": 116520,
+    "sha256": "6f4151b052062a4f1943fa8d1027e03f5527313d8f44112eae1a6353e3e66292",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libutils.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libutils.so",
+    "bytes": 149304,
+    "sha256": "926c356fa359ff6d5b9e3a42ca75e2b616e536daacb1120c6ca41dc1f3cb4e6d",
+    "mode": "0o644"
+  },
+  {
+    "source": "lib64/libz.so",
+    "destination": "usr/local/lib/native-tfa/lib64/libz.so",
+    "bytes": 116536,
+    "sha256": "a45014ccaa075120d867a9e245251a899cbbe066768c9f9682f12163199a04eb",
+    "mode": "0o644"
+  }
+]

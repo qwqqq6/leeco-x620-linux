@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+layout_dir="$HOME/.local/share/squeekboard/keyboards"
+mkdir -p "$layout_dir/terminal"
+cp /etc/native-mobile/keyboards/us.yaml "$layout_dir/us.yaml"
+cp /etc/native-mobile/keyboards/terminal/us.yaml "$layout_dir/terminal/us.yaml"
+gsettings set org.freedesktop.ibus.general use-system-keyboard-layout true
+gsettings set org.freedesktop.ibus.general preload-engines "['iflytek', 'libpinyin', 'xkb:us::eng']"
+gsettings set org.freedesktop.ibus.general enable-by-default true
+gsettings set org.freedesktop.ibus.general.hotkey triggers "['Zenkaku_Hankaku', '<Control>space']"
+gsettings set com.github.libpinyin.ibus-libpinyin.libpinyin init-chinese true
+gsettings set com.github.libpinyin.ibus-libpinyin.libpinyin init-simplified-chinese true
+gsettings set com.github.libpinyin.ibus-libpinyin.libpinyin enable-cloud-input false
+gsettings set com.github.libpinyin.ibus-libpinyin.libpinyin main-switch '<Shift>'

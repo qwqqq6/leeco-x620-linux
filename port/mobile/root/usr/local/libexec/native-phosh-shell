@@ -1,0 +1,59 @@
+#!/bin/sh
+set -eu
+export GDK_BACKEND=wayland GSK_RENDERER=cairo
+export GTK_THEME=Adwaita:dark
+export GTK_IM_MODULE=ibus XMODIFIERS=@im=ibus
+export IBUS_ADDRESS=unix:path=/run/user/1000/ibus-bus IBUS_USE_PORTAL=0
+dbus-update-activation-environment DISPLAY WAYLAND_DISPLAY GDK_BACKEND GSK_RENDERER \
+    XDG_CURRENT_DESKTOP XDG_SESSION_DESKTOP XDG_SESSION_TYPE XDG_RUNTIME_DIR \
+    LD_PRELOAD LANG LC_ALL PULSE_CLIENTCONFIG GTK_IM_MODULE XMODIFIERS IBUS_ADDRESS IBUS_USE_PORTAL
+# No password lock or system sleep on this dedicated local server.
+gsettings set org.gnome.desktop.screensaver lock-enabled false
+gsettings set org.gnome.desktop.lockdown disable-lock-screen true
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set sm.puri.phosh enable-suspend false
+gsettings set sm.puri.phosh shell-layout none
+gsettings set org.gnome.desktop.interface font-name 'WenQuanYi Zen Hei 11'
+gsettings set org.gnome.desktop.interface monospace-font-name 'Monospace 11'
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+gsettings set org.gnome.desktop.interface icon-theme Adwaita
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+gsettings set org.gnome.desktop.background picture-uri ''
+gsettings set org.gnome.desktop.background picture-uri-dark ''
+gsettings set org.gnome.desktop.background primary-color '#18212f'
+gsettings set org.gnome.desktop.background color-shading-type solid
+gsettings set sm.puri.phosh favorites "['org.gnome.Console.desktop', 'native-codex.desktop', 'dev.tchx84.Portfolio.desktop', 'native-screen.desktop']"
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us')]"
+gsettings set org.gnome.desktop.input-sources xkb-options "['le620:nopower']"
+gsettings set sm.puri.phoc auto-maximize true
+gsettings set sm.puri.phoc scale-to-fit true
+/usr/local/libexec/native-input-setup
+keyboard_pid= shell_pid= input_pid= iflytek_pid=
+cleanup() {
+    trap - EXIT INT TERM
+    for child in "$iflytek_pid" "$shell_pid" "$keyboard_pid" "$input_pid"; do
+        [ -z "$child" ] || kill "$child" 2>/dev/null || true
+    done
+    wait 2>/dev/null || true
+}
+trap cleanup EXIT
+trap 'exit 0' INT TERM
+ibus exit >/dev/null 2>&1 || true
+# A fixed private address is required by GTK4; an unclean session can leave
+# a dead Unix socket behind. The old session has already been stopped here.
+rm -f /run/user/1000/ibus-bus
+ibus-daemon --replace --address="$IBUS_ADDRESS" --desktop=phosh \
+    --panel=/usr/local/libexec/native-pinyin-panel.py --emoji-extension=disable \
+    >/run/user/1000/ibus.log 2>&1 &
+input_pid=$!
+for attempt in 1 2 3 4 5 6 7 8 9 10; do
+    if ibus engine libpinyin 2>/dev/null; then break; fi
+    sleep 0.2
+done
+/usr/local/libexec/native-iflytek-session.py >/run/user/1000/iflytek-session.log 2>&1 &
+iflytek_pid=$!
+env -u GTK_IM_MODULE squeekboard >/run/user/1000/squeekboard.log 2>&1 &
+keyboard_pid=$!
+/usr/libexec/phosh -U &
+shell_pid=$!
+wait "$shell_pid"

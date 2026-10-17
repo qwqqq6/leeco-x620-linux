@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-17",
+  "unit_guard_tests": {
+    "count": 12,
+    "passed": true
+  },
+  "privacy": {
+    "passed": true,
+    "all_rootfs_files_and_metadata_scanned": true,
+    "exact_private_api_key_and_endpoint_checked_in_memory": true,
+    "personal_values_published": false,
+    "unmodified_upstream_reference_files": 61
+  },
+  "preparation": {
+    "donor_runtime_file_hashes_checked": 119,
+    "prepared_overlay_entries": 465,
+    "reconstructed_boot_matches_tested_original_kernel_boot": true,
+    "reconstructed_speaker_helper_matches_tested_binary": true,
+    "optional_official_input_client_import_checked": true,
+    "recovery_and_calibration_acquisition_simulated": true,
+    "device_flash_performed": false
+  },
+  "isolated_phone_runtime": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "native-busybox",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-keyboard",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-screen",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-codex",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-speaker-play",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-desktop-session",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/codex",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-phosh-session",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-receiver-play",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-mic-record",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-early",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-release-init",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-gnss",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-wifi",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-bluetoothctl",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-install-watchdog",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-hardware-init",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-gpu-check",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-boot-mode",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-display-refresh",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-network",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-desktop",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-iflytek-service",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-phosh-shell",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-iflytek-mic-route",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-codex-session",
+        "passed": true
+      },
+      {
+        "name": "shell-syntax/native-input-setup",
+        "passed": true
+      },
+      {
+        "name": "first-boot-identity",
+        "passed": true
+      },
+      {
+        "name": "repeat-boot-identity-idempotent",
+        "passed": true
+      },
+      {
+        "name": "phoc-version",
+        "passed": true
+      },
+      {
+        "name": "phosh-version",
+        "passed": true
+      },
+      {
+        "name": "gtk-ibus-import",
+        "passed": true
+      },
+      {
+        "name": "codex-version",
+        "passed": true
+      },
+      {
+        "name": "optional-iflytek-loader",
+        "passed": true
+      }
+    ],
+    "new_identity_unique_and_stable": true,
+    "codex_api_configuration_empty": true,
+    "real_microphone_recording": false,
+    "network_listeners_started": false,
+    "live_rootfs_modified": false
+  },
+  "driver_internal_checksum_lists": {
+    "usr/local/share/native-gnss/SHA256SUMS": 26,
+    "usr/local/share/native-gpu/SHA256SUMS": 50
+  },
+  "temporary_phone_rootfs_cleaned": true,
+  "clean_public_install_destructive_flash_test": false,
+  "development_handset_existing_install_preserved": true
+}

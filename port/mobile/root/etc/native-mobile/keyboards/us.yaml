@@ -1,0 +1,269 @@
+# Language: English (US)
+---
+outlines:
+    default:       { width: 35.657, height: 52 }
+    change-view:   { width: 53.485, height: 52 }
+    change-view-2: { width: 62.399, height: 52 }
+    large:         { width: 44.571, height: 52 }
+    spaceline:     { width: 98.059, height: 52 }
+    special:       { width: 44.571, height: 52 }
+    special-2:     { width: 53.485, height: 52 }
+    special-3:     { width: 62.399, height: 52 }
+
+    nine-key: { width: 97, height: 52 }
+    nine-space: { width: 188, height: 52 }
+    input-toggle: { width: 44.571, height: 52 }
+
+views:
+    base:
+        - "q w e r t y u i o p"
+        - "a s d f g h j k l"
+        - "show_upper z x c v b n m BackSpace"
+        - "show_numbers toggle_pinyin show_nine space . Return"
+    upper:
+        - "Q W E R T Y U I O P"
+        - "A S D F G H J K L"
+        - "show_upper Z X C V B N M BackSpace"
+        - "show_numbers toggle_pinyin show_nine space . Return"
+    numbers:
+        - "1 2 3 4 5 6 7 8 9 0"
+        - "@ # $ % & - _ + ( )"
+        - "show_symbols , \" ' : ; ! ? BackSpace"
+        - "show_letters toggle_pinyin show_nine space . Return"
+    symbols:
+        - "~ ` | · √ π τ ÷ × ¶"
+        - "© ® £ € ¥ ^ ° * { }"
+        - "show_numbers_from_symbols \\ / < > = [ ] BackSpace"
+        - "show_letters toggle_pinyin show_nine space . Return"
+
+    nine:
+        - "nine_sep nine_abc nine_def BackSpace"
+        - "nine_ghi nine_jkl nine_mno nine_comma"
+        - "nine_pqrs nine_tuv nine_wxyz Return"
+        - "show_numbers toggle_pinyin show_letters nine_space"
+
+buttons:
+    show_nine:
+        action:
+            set_view: "nine"
+        label: "9键"
+        outline: "special"
+    nine_space:
+        outline: "nine-space"
+        keysym: "space"
+        label: " "
+    nine_sep:
+        outline: "nine-key"
+        keysym: "apostrophe"
+        label: "1 分词"
+    nine_comma:
+        outline: "special-2"
+        keysym: "comma"
+        label: "，"
+    show_upper:
+        action:
+            locking:
+                lock_view: "upper"
+                unlock_view: "base"
+        outline: "change-view"
+        icon: "key-shift"
+    BackSpace:
+        outline: "special-2"
+        icon: "edit-clear-symbolic"
+        keysym: "BackSpace"
+    preferences:
+        action: "show_prefs"
+        outline: "special"
+        icon: "keyboard-mode-symbolic"
+    show_numbers:
+        action:
+            set_view: "numbers"
+        outline: "change-view-2"
+        label: "123"
+    show_numbers_from_symbols:
+        action:
+            set_view: "numbers"
+        outline: "change-view"
+        label: "123"
+    show_letters:
+        action:
+            set_view: "base"
+        outline: "change-view-2"
+        label: "26键"
+    show_symbols:
+        action:
+            set_view: "symbols"
+        outline: "change-view"
+        label: "*/="
+    .:
+        outline: "large"
+        keysym: "period"
+    space:
+        outline: "spaceline"
+        keysym: "space"
+        label: " "
+    Return:
+        outline: "special-3"
+        icon: "key-enter"
+        keysym: "Return"
+
+    toggle_pinyin:
+        label: "中"
+        keysym: "Shift_L"
+        outline: "input-toggle"
+    "a":
+        keysym: "a"
+    "b":
+        keysym: "b"
+    "c":
+        keysym: "c"
+    "d":
+        keysym: "d"
+    "e":
+        keysym: "e"
+    "f":
+        keysym: "f"
+    "g":
+        keysym: "g"
+    "h":
+        keysym: "h"
+    "i":
+        keysym: "i"
+    "j":
+        keysym: "j"
+    "k":
+        keysym: "k"
+    "l":
+        keysym: "l"
+    "m":
+        keysym: "m"
+    "n":
+        keysym: "n"
+    "o":
+        keysym: "o"
+    "p":
+        keysym: "p"
+    "q":
+        keysym: "q"
+    "r":
+        keysym: "r"
+    "s":
+        keysym: "s"
+    "t":
+        keysym: "t"
+    "u":
+        keysym: "u"
+    "v":
+        keysym: "v"
+    "w":
+        keysym: "w"
+    "x":
+        keysym: "x"
+    "y":
+        keysym: "y"
+    "z":
+        keysym: "z"
+    "A":
+        keysym: "A"
+    "B":
+        keysym: "B"
+    "C":
+        keysym: "C"
+    "D":
+        keysym: "D"
+    "E":
+        keysym: "E"
+    "F":
+        keysym: "F"
+    "G":
+        keysym: "G"
+    "H":
+        keysym: "H"
+    "I":
+        keysym: "I"
+    "J":
+        keysym: "J"
+    "K":
+        keysym: "K"
+    "L":
+        keysym: "L"
+    "M":
+        keysym: "M"
+    "N":
+        keysym: "N"
+    "O":
+        keysym: "O"
+    "P":
+        keysym: "P"
+    "Q":
+        keysym: "Q"
+    "R":
+        keysym: "R"
+    "S":
+        keysym: "S"
+    "T":
+        keysym: "T"
+    "U":
+        keysym: "U"
+    "V":
+        keysym: "V"
+    "W":
+        keysym: "W"
+    "X":
+        keysym: "X"
+    "Y":
+        keysym: "Y"
+    "Z":
+        keysym: "Z"
+    "0":
+        keysym: "0"
+    "1":
+        keysym: "1"
+    "2":
+        keysym: "2"
+    "3":
+        keysym: "3"
+    "4":
+        keysym: "4"
+    "5":
+        keysym: "5"
+    "6":
+        keysym: "6"
+    "7":
+        keysym: "7"
+    "8":
+        keysym: "8"
+    "9":
+        keysym: "9"
+    nine_abc:
+        outline: "nine-key"
+        keysym: "F13"
+        label: "2 ABC"
+    nine_def:
+        outline: "nine-key"
+        keysym: "F14"
+        label: "3 DEF"
+    nine_ghi:
+        outline: "nine-key"
+        keysym: "F15"
+        label: "4 GHI"
+    nine_jkl:
+        outline: "nine-key"
+        keysym: "F16"
+        label: "5 JKL"
+    nine_mno:
+        outline: "nine-key"
+        keysym: "F17"
+        label: "6 MNO"
+    nine_pqrs:
+        outline: "nine-key"
+        keysym: "F18"
+        label: "7 PQRS"
+    nine_tuv:
+        outline: "nine-key"
+        keysym: "F19"
+        label: "8 TUV"
+    nine_wxyz:
+        outline: "nine-key"
+        keysym: "F20"
+        label: "9 WXYZ"

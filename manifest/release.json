@@ -1,0 +1,29 @@
+{
+  "version": "v0.1.0-experimental",
+  "date": "2026-10-17",
+  "device": "LeEco Le X620 (MT6797), tested 32 GB layout only",
+  "status": "experimental; sanitized redistribution has not been destructively flash-tested",
+  "alpine_version": "3.24.2",
+  "kernel_version": "3.18.22+",
+  "tested_kernel_sha256": "fcfe45a6037cf6d64cd7ad53fb3df00a630f368227155a50b799f376bdc6bc1b",
+  "assets": {
+    "payload/initramfs.cpio.gz": {
+      "bytes": 666231,
+      "sha256": "237dbf761455c9a212e0787bec25722e3a260b51a82312f91daf35a6308ffe64"
+    },
+    "payload/native-tfa-template.bin": {
+      "bytes": 71048,
+      "sha256": "141769a8abedc599f0c7d06cdbdab27e7bfd982100935fb7a9f76a5fbdc53acd"
+    },
+    "payload/rootfs.tar.gz": {
+      "bytes": 623864781,
+      "sha256": "31fbd0c8ef4ebf230ba1ea8d9b19c1b85fa7207fcb09ebf3064c7c2253d25699"
+    }
+  },
+  "no_kernel_or_device_boot_image_distributed": true,
+  "vendor_runtime_extracted_from_recipient": true,
+  "iflytek_requires_separate_official_package": true,
+  "codex_credentials_included": false,
+  "wifi_ssh_bluetooth_personal_state_included": false,
+  "rootfs_entries": 23289
+}

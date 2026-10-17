@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Codex
+Comment=使用默认 API 服务的编程助手
+Exec=/usr/local/bin/native-codex
+Icon=utilities-terminal-symbolic
+Terminal=false
+Categories=Development;
+X-Phosh-Adaptive=true

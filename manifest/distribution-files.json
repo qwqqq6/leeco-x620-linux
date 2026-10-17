@@ -1,0 +1,447 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 45,
+    "sha256": "37fdceee889739704583fe968bde18fb009a112ef5b4f9dbd256b8a5a1b78953"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 185,
+    "sha256": "0316adb52d35e985947de517d790b0f5350df2ec390f09800a529d9c1400fd8e"
+  },
+  {
+    "path": "docs/BUILD.md",
+    "bytes": 4003,
+    "sha256": "5a85023b7d4fa0fe64f071800eec4624091edb99c11942220fcfa7616e8405b3"
+  },
+  {
+    "path": "docs/CHANGELOG.md",
+    "bytes": 1577,
+    "sha256": "468faf5527c808cf833503e57a055ccdcc9118c82f0b551ad5eb580bde4d4226"
+  },
+  {
+    "path": "docs/LICENSE.btstack",
+    "bytes": 1721,
+    "sha256": "10aa5f952979a9fa2f58bf63c1390c9795b41f8eca405ab975ab926e4d14fc5a"
+  },
+  {
+    "path": "docs/PRIVACY.md",
+    "bytes": 2251,
+    "sha256": "ce1463998655eaeddb380625ab775ab1ee8f9b919d80658d2df24de83e9a34d1"
+  },
+  {
+    "path": "docs/RECOVERY.md",
+    "bytes": 2522,
+    "sha256": "bd63f54f2e565adeacd2436939ca6f2bc585b317695b5ddd85e73a6dc1007307"
+  },
+  {
+    "path": "docs/THIRD_PARTY.md",
+    "bytes": 3209,
+    "sha256": "435a4a98249b5963f1123f92a857ce806b2e6f5a4d5941286a2107a53df541c1"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1355,
+    "sha256": "e060dc75a5f6ad0871a7e2bb79aaab4e5d084a7d395f91f7f221103fd7739eee"
+  },
+  {
+    "path": "manifest/alpine-packages.json",
+    "bytes": 137262,
+    "sha256": "5d4e2687941a4ec2959448cfc004214ba97597093125c2e89ca045e10930e660"
+  },
+  {
+    "path": "manifest/release.json",
+    "bytes": 1152,
+    "sha256": "e9a977c7c332a752e7e8d99afc5e9cb974269f1bfe91392032f11126961ca189"
+  },
+  {
+    "path": "manifest/rootfs-files.json",
+    "bytes": 5529875,
+    "sha256": "90e61aa3fc3790559755e44c6f9d5666d262e5c14fd7d4f1e7dc7426016b4da5"
+  },
+  {
+    "path": "manifest/tfa-template.json",
+    "bytes": 1556,
+    "sha256": "76cdb1ab893c6aa9da8ee9bd20c1d15b1ef42ea14408f9a45887fc482e872fd5"
+  },
+  {
+    "path": "manifest/ubuntu-packages.json",
+    "bytes": 11222,
+    "sha256": "b33eb274422821e3b5ab458745dc5a692258431e265c6d2f43e5d32fa719a6d8"
+  },
+  {
+    "path": "manifest/upstream-scan-references.json",
+    "bytes": 23684,
+    "sha256": "f60c7a57c663a4217621abedddc652373461a3427ccd65fc714a6af184a6f116"
+  },
+  {
+    "path": "manifest/validation.json",
+    "bytes": 4440,
+    "sha256": "8396a1b9c58ae0b0b5db449696edcae78befa6128862eb64c18ceca0a8203020"
+  },
+  {
+    "path": "manifest/vendor-files.json",
+    "bytes": 29135,
+    "sha256": "6512c7606886feacdc1a57167fa61b72da0ab57afc5ed2d168c0c73bcde1d49d"
+  },
+  {
+    "path": "payload/initramfs.cpio.gz",
+    "bytes": 666231,
+    "sha256": "237dbf761455c9a212e0787bec25722e3a260b51a82312f91daf35a6308ffe64"
+  },
+  {
+    "path": "payload/native-tfa-template.bin",
+    "bytes": 71048,
+    "sha256": "141769a8abedc599f0c7d06cdbdab27e7bfd982100935fb7a9f76a5fbdc53acd"
+  },
+  {
+    "path": "payload/rootfs.tar.gz",
+    "bytes": 623864781,
+    "sha256": "31fbd0c8ef4ebf230ba1ea8d9b19c1b85fa7207fcb09ebf3064c7c2253d25699"
+  },
+  {
+    "path": "port/bionic-start.c",
+    "bytes": 2627,
+    "sha256": "080bf2d3ab0237788065ddbc26ff66824f8b676ec792e6afa5b817428d48fec8"
+  },
+  {
+    "path": "port/bluetooth/btstack_config.h",
+    "bytes": 258,
+    "sha256": "22d5a2570f60f38ed61bdbaf957547eceee6a3ea96c8051ed53b0dcdb100dd43"
+  },
+  {
+    "path": "port/bluetooth/mtk_factory.c",
+    "bytes": 2753,
+    "sha256": "e32e1e60b87a739928d89da7180080a6af827aa8940ada49788128afc755d3c1"
+  },
+  {
+    "path": "port/bluetooth/native_bluetooth.c",
+    "bytes": 15069,
+    "sha256": "a5c16048fa8d20392eb76157647af294e30f82f40381d7777ce63770e8f2b079"
+  },
+  {
+    "path": "port/bluetooth/stp_transport.c",
+    "bytes": 3861,
+    "sha256": "96a6b9e9825e22158e41ebcfc8519ada3a3b5d9e4a9768345f1bf0363cd27e58"
+  },
+  {
+    "path": "port/desktop-compat-check.c",
+    "bytes": 1340,
+    "sha256": "390975e4e692f39efb61f6d281c0cfc3f6e0e42eeaa7ca6f30c0d1e0d62502c9"
+  },
+  {
+    "path": "port/desktop-compat.c",
+    "bytes": 925,
+    "sha256": "b136fe1ef24561bffad831c753a6b1e1afbf21b20e3c583e190f6c3ebfcaddcd"
+  },
+  {
+    "path": "port/firstboot.sh",
+    "bytes": 847,
+    "sha256": "bdbeb825e4dabadb1f202c2eb83c24b85f5bc9c8d28342c5777e4f5f17e2af6f"
+  },
+  {
+    "path": "port/gnss/native_gnss_probe.c",
+    "bytes": 10484,
+    "sha256": "e637dc5f01c45e704d998385e548d43e15a8046cdc51ba68bba79a6e0175f54e"
+  },
+  {
+    "path": "port/gnss/native_gnss_props.c",
+    "bytes": 3967,
+    "sha256": "beec14df46d8737b2c669da8e2e2c9f7482ee441bd92df25c1930ffcf316efd3"
+  },
+  {
+    "path": "port/gpu/native_gpu_launch.c",
+    "bytes": 1202,
+    "sha256": "d6800ad8f10f3f97b2a3a2d918e9f2147c984dc1a24dad19c691a1c3f559971f"
+  },
+  {
+    "path": "port/gpu/native_gpu_probe.c",
+    "bytes": 6668,
+    "sha256": "0d16a24e6f7c3671a30265c4124b7449e42821aa75fc547dbdd91bcfe3a5091c"
+  },
+  {
+    "path": "port/gpu/native_gpu_props.c",
+    "bytes": 696,
+    "sha256": "460a29262fc5dbf2dbe8d8a7f232cc69f7e4540ab2731ea0b691ac189686d50f"
+  },
+  {
+    "path": "port/iflytek_trial_backend.py",
+    "bytes": 11033,
+    "sha256": "f8175ea0eefa0a9129758c96855843399911d7b7d7c92e53108ad989bf1b885b"
+  },
+  {
+    "path": "port/mobile/native_iflytek_capture.c",
+    "bytes": 9999,
+    "sha256": "d30aa8508f555d3a2958daf68938e08d6dfec2fde990eda7a3841ca1e6c13b08"
+  },
+  {
+    "path": "port/mobile/native_iflytek_keyboard.c",
+    "bytes": 4678,
+    "sha256": "6c57202843d8dae97fe90901655bd214646fe92af4f2c8a4361921a834ee4ffd"
+  },
+  {
+    "path": "port/mobile/root/etc/native-desktop-session",
+    "bytes": 6,
+    "sha256": "4d264fd83b18e27e88b03e370daef0c77534710e08f6a325e97bdfef3902df9d"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/codex-config.toml",
+    "bytes": 143,
+    "sha256": "514800035731ab76d138ba42c02c40186ebdaac3ffde37467498401fae47484a"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/iflytek-asound.conf",
+    "bytes": 484,
+    "sha256": "c9f70b2b6da8f5bf7201e1a6cdecc104563a7f79ebf1e490ba7216847ff44ea7"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/iflytek-defaults/.config/fcitx/config",
+    "bytes": 134,
+    "sha256": "50ba6b99f5046ee16ccdbe732129b60a8f64a4843aa8f2e27d7d50186d72bf74"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/iflytek-defaults/.config/fcitx/profile",
+    "bytes": 91,
+    "sha256": "32d93b040124482db673e36939e8a697113a9eb1e6f0b6788b3dc8714aa9ff21"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/iflytek-defaults/.config/iflytek/inputmethod.ini",
+    "bytes": 349,
+    "sha256": "0e9bae82ace5a86c0c6460d44b6accce9151bb1bd4e693b439ca3e015585873d"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/iflytek-voice-enabled",
+    "bytes": 8,
+    "sha256": "e056a35db086947e2f5969d747f0a7517bff00c7ffff1f9e7b47b72bfac9d948"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/keyboards/terminal/us.yaml",
+    "bytes": 9336,
+    "sha256": "d509bd545f34225361db66c465cc50ee86f1893c8d9d47715607840b7b7e83c7"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/keyboards/us.yaml",
+    "bytes": 5682,
+    "sha256": "396a4a71998cf472e30757b0efd9fe4d278b09bc8a81bf7a0908f2bfbe51df3c"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/phoc.ini",
+    "bytes": 61,
+    "sha256": "b57b941bdc41afcd4efb5c0d274c65a1f7f590de808d4e897f4b3b87f094acb0"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/pulse-client.conf",
+    "bytes": 162,
+    "sha256": "cad726ae5fc31152925b90d973e96454fcd5b2ec9320c2a92e1c005175ccfab0"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/xkb/rules/le620",
+    "bytes": 73,
+    "sha256": "8934678baa03fbbe8d71915807f8864c3358911439643a09703b4167d8af9a4c"
+  },
+  {
+    "path": "port/mobile/root/etc/native-mobile/xkb/symbols/le620",
+    "bytes": 163,
+    "sha256": "82478a0dae23d2cd2f063491eca39cbb045ffbf04a2689347408b27dfe30c49a"
+  },
+  {
+    "path": "port/mobile/root/usr/local/bin/codex",
+    "bytes": 277,
+    "sha256": "d2d915daf0f8098f31e0a88b104c894e71629473aad7dcf78c630819c0cc5c99"
+  },
+  {
+    "path": "port/mobile/root/usr/local/bin/native-codex",
+    "bytes": 133,
+    "sha256": "f14b1e8e7db6ee612d2a4f11688773de6ce8db4c5eb3b3141934407c4dbf8c35"
+  },
+  {
+    "path": "port/mobile/root/usr/local/bin/native-phosh-session",
+    "bytes": 1057,
+    "sha256": "a1017a5a79cce8d9724d4c614b7abb9bea58bd79c0f972f8fb133b49e7d6a898"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-codex-session",
+    "bytes": 338,
+    "sha256": "867e0e7a227b31f17bddf33b60115c2d4c0f570eac1fd336ea58270579c64cdc"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-iflytek-bridge.py",
+    "bytes": 24047,
+    "sha256": "59cead5b9e075acdc4a2f836c1a6fde6db7833b40eca4d00a29313969b2e6022"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-iflytek-mic-route",
+    "bytes": 3375,
+    "sha256": "197445e615e47c6b26c6444858f12a59c020db3c17ae513b6081194a6f6b23e1"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-iflytek-service",
+    "bytes": 460,
+    "sha256": "c1cb7889832490e7b6dfe13c7cb5a92462634dd155826d8e2f37cf47a4da57fc"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-iflytek-session.py",
+    "bytes": 2178,
+    "sha256": "bd89473e1b884a3cf9d413caaf4402ec221c7917f6eb4e0146d7177e9a6831f7"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-input-setup",
+    "bytes": 921,
+    "sha256": "f1d4da44879307e5cd23ea7366cb59f9fe73d137dd3974515015e4cf26e3f550"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-phosh-shell",
+    "bytes": 2933,
+    "sha256": "1a5014654f68e44322b0c1245bbcbf79dfd3f083c7d21ac088077c99551e5389"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native-pinyin-panel.py",
+    "bytes": 18599,
+    "sha256": "a25e740cf7fd438e138d7c58a4b8f4c89fddf6544d3da40677de9f334762e411"
+  },
+  {
+    "path": "port/mobile/root/usr/local/libexec/native_iflytek_space.py",
+    "bytes": 1261,
+    "sha256": "3272e189d7ca4173e0993a47fd2cf6369fa8c7f19718729c364fd5bfb4cdc53d"
+  },
+  {
+    "path": "port/mobile/root/usr/share/applications/native-codex.desktop",
+    "bytes": 218,
+    "sha256": "f427f9a48250689013e43cef5eae4d35761fc7e632ea70a6a6ba66e8e27ac939"
+  },
+  {
+    "path": "port/mtk-native-properties.c",
+    "bytes": 1063,
+    "sha256": "dbdbf4e368a2f95c3b80a072e70fcd39dbe8473ba8f029ca0ae1391214fdacd9"
+  },
+  {
+    "path": "port/native-bluetoothctl.sh",
+    "bytes": 2982,
+    "sha256": "1109ddab4fecffd6db4340b0635cac3fbd2c8fe46c5109067bd34ea90fcce9b8"
+  },
+  {
+    "path": "port/native-boot-mode.sh",
+    "bytes": 1289,
+    "sha256": "5727503b499862b03a5524ffbaa978986b539f2425c19db79b831b364bab2445"
+  },
+  {
+    "path": "port/native-display-refresh.c",
+    "bytes": 5963,
+    "sha256": "f3e974bed2684770dfe7f191c6e49bd19ef8bd4ff61712d748a460279f53fa07"
+  },
+  {
+    "path": "port/native-display-refresh.sh",
+    "bytes": 318,
+    "sha256": "e238eb756b0fd61da09317c96dfb4af00bb50c0ffce99dc243e9895c4975d027"
+  },
+  {
+    "path": "port/native-early.sh",
+    "bytes": 2426,
+    "sha256": "a541850c903e584531c56eee55900e2feccd8e0909c78ef3addca9c5b0dce7a9"
+  },
+  {
+    "path": "port/native-final-initramfs.sh",
+    "bytes": 1095,
+    "sha256": "b580f9348e5e21b9d8bc0ac08dc7b41a77292167ba8e9f18abf65a5d7885b65a"
+  },
+  {
+    "path": "port/native-gnss.sh",
+    "bytes": 4918,
+    "sha256": "a0276add2e57ec0502d72ba321a8cfa6d581903ab18b17d65ba45f765f164268"
+  },
+  {
+    "path": "port/native-gpu-check.sh",
+    "bytes": 3670,
+    "sha256": "d323512aaf4d22917092a704b9db1f4d92db85fd27bc67733cce2e7b05b117bc"
+  },
+  {
+    "path": "port/native-hardware-init.sh",
+    "bytes": 1180,
+    "sha256": "5a5ad2fe6531e5ff440a303f8682535ec74a5c611e611ef1f4defec929752cb7"
+  },
+  {
+    "path": "port/native-iflytek-service.sh",
+    "bytes": 514,
+    "sha256": "d21b78487438c7d5d4c61bcff70497c2dda41ad4f248829348c80fc2ea941a11"
+  },
+  {
+    "path": "port/native-mic-record.sh",
+    "bytes": 2305,
+    "sha256": "703c592a3c2ac83cda07780487086b9fffb21e98299fe7a15efeb239e73e6dcf"
+  },
+  {
+    "path": "port/native-network.sh",
+    "bytes": 788,
+    "sha256": "1d8f6963951349cfb3f5f2de2997c8f172fcd3c03e726b003a9cfc27ca3d9889"
+  },
+  {
+    "path": "port/native-receiver-play.sh",
+    "bytes": 1188,
+    "sha256": "e9bd76a456852109de549c6fad766c8840456d4bdaee30e0876c7d92115175bc"
+  },
+  {
+    "path": "port/native-screen.c",
+    "bytes": 12045,
+    "sha256": "f122acc5e94bf45bb73656f8e87a40a83ff8e9f58e564ee12dc274b56eb40c39"
+  },
+  {
+    "path": "port/native-sensor-read.c",
+    "bytes": 5964,
+    "sha256": "d9f5b99fcf41c2428998a67b9958c4d1ff00d07755277664ab59b3c62d481329"
+  },
+  {
+    "path": "port/native-speaker-play.sh",
+    "bytes": 1936,
+    "sha256": "1b170e788d47cc173fde43ff7960cc00175a2eb129c083c6674f96671e117412"
+  },
+  {
+    "path": "port/native-stp-bridge.c",
+    "bytes": 4749,
+    "sha256": "5ed33572619cc01f22f8441fdd49ab1946f06b6876204c886f5e4050bdfefddc"
+  },
+  {
+    "path": "port/native-tfa.c",
+    "bytes": 9972,
+    "sha256": "cad61e392b4d96e26bd61cee69319369442ea6ec20046c0480805c6ccb2a404e"
+  },
+  {
+    "path": "port/reboot-recovery.c",
+    "bytes": 299,
+    "sha256": "41d9a2aea200129a1268be36f7fd0af34f4c70788858ae3a96e3c43837c440fc"
+  },
+  {
+    "path": "port/xorg-x620.conf",
+    "bytes": 1257,
+    "sha256": "c376f6a923f49e27d3fedbdb197746b4fa904eb2659d7a8d39419e9ba168bb3d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8781,
+    "sha256": "5e53a3bd7eb732e47cfa9f7507d41e3ba12f1cde7d131eba654f4479df0b72e6"
+  },
+  {
+    "path": "README.zh-CN.md",
+    "bytes": 8095,
+    "sha256": "b0de4c9076844d16b1adf9b83c7e151b29b53deb4512f374aafeb50d98d8103a"
+  },
+  {
+    "path": "scripts/bootimage.py",
+    "bytes": 2680,
+    "sha256": "4acbd97d8cce0f0cef66095642d196451217aa9b90301143cd97c6a00da3435c"
+  },
+  {
+    "path": "scripts/flash.py",
+    "bytes": 22359,
+    "sha256": "1434ee0962c571fdb86e9a385a820b63d9c861a171f08528360f6607dc666ea5"
+  },
+  {
+    "path": "scripts/verify_release.py",
+    "bytes": 9163,
+    "sha256": "1f44cffbc0504e2e04a1efc35ffeb694387cc3bbce2fd77461b4466e9457ee84"
+  },
+  {
+    "path": "tests/test_flash.py",
+    "bytes": 6603,
+    "sha256": "50e4c404f59740dfd4a0b3e62c85876e78b4c25807799a339ba608a0499e753e"
+  }
+]

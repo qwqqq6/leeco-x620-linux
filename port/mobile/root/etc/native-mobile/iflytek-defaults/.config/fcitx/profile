@@ -1,0 +1,4 @@
+[Profile]
+FullWidth=False
+IMName=iflyime
+EnabledIMList=fcitx-keyboard-us:True,iflyime:True

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+mkdir -p "$HOME/Projects/codex"
+cd "$HOME/Projects/codex"
+exec kgx -- /usr/local/libexec/native-codex-session "$@"

@@ -1,0 +1,86 @@
+#!/bin/sh
+# Capture via the verified native read/write path; the official recognizer gets
+# PCM through a private FIFO, never through the old PortAudio hardware backend.
+# This helper starts exclusively on an explicit user Voice action.
+set -eu
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
+case "${1:-}" in 65) ;; *) exit 2 ;; esac
+muted=0
+case "${2:-}" in '') ;; --muted-diagnostic) muted=1 ;; *) exit 2 ;; esac
+ready="${XDG_RUNTIME_DIR:?}/iflytek-microphone-ready"
+fifo="${XDG_RUNTIME_DIR}/iflytek-capture.pcm"
+recorder=
+fifo_created=0
+exec 8>/run/native-audio/stream.lock
+flock -n 8 || exit 1
+get() { amixer -c 0 cget "name=$1" | sed -n 's/^  : values=//p'; }
+mode=$(get Audio_MIC1_Mode_Select)
+source=$(get Audio_MicSource1_Setting)
+gain=$(get Audio_PGA1_Setting)
+preamp1=$(get Audio_Preamp1_Switch)
+preamp2=$(get Audio_Preamp2_Switch)
+adc1=$(get Audio_ADC_1_Switch)
+adc2=$(get Audio_ADC_2_Switch)
+[ "$adc1" = 0 ] && [ "$adc2" = 0 ] || exit 1
+cleanup() {
+    rm -f "$ready"
+    amixer -q -c 0 cset name=Audio_Preamp1_Switch OPEN || true
+    amixer -q -c 0 cset name=Audio_Preamp2_Switch OPEN || true
+    if [ -n "$recorder" ]; then
+        kill "$recorder" 2>/dev/null || true
+        for attempt in 1 2 3 4 5 6 7 8; do
+            kill -0 "$recorder" 2>/dev/null || break
+            sleep 0.1
+        done
+        kill -KILL "$recorder" 2>/dev/null || true
+        wait "$recorder" 2>/dev/null || true
+    fi
+    [ "$fifo_created" -eq 0 ] || rm -f "$fifo"
+    amixer -q -c 0 cset name=Audio_ADC_1_Switch Off || true
+    amixer -q -c 0 cset name=Audio_ADC_2_Switch Off || true
+    amixer -q -c 0 cset name=Audio_MIC1_Mode_Select "$mode" || true
+    amixer -q -c 0 cset name=Audio_MicSource1_Setting "$source" || true
+    amixer -q -c 0 cset name=Audio_PGA1_Setting "$gain" || true
+    amixer -q -c 0 cset name=Audio_ADC_1_Switch "$adc1" || true
+    amixer -q -c 0 cset name=Audio_ADC_2_Switch "$adc2" || true
+    amixer -q -c 0 cset name=Audio_Preamp1_Switch "$preamp1" || true
+    amixer -q -c 0 cset name=Audio_Preamp2_Switch "$preamp2" || true
+}
+trap cleanup EXIT
+trap 'exit 130' INT
+trap 'exit 143' TERM
+[ ! -e "$fifo" ] && [ ! -L "$fifo" ] || exit 1
+mkfifo -m 600 "$fifo"
+fifo_created=1
+amixer -q -c 0 cset name=Audio_MIC1_Mode_Select ACCMODE
+amixer -q -c 0 cset name=Audio_MicSource1_Setting ADC1
+amixer -q -c 0 cset name=Audio_PGA1_Setting 2
+amixer -q -c 0 cset name=Audio_ADC_1_Switch On
+amixer -q -c 0 cset name=Audio_ADC_2_Switch On
+if [ "$muted" -eq 1 ]; then
+    # Exercise the real FIFO/recorder/cleanup path without admitting sound
+    # from either analog microphone. ADCs supply clocks during this test.
+    amixer -q -c 0 cset name=Audio_Preamp1_Switch OPEN
+    amixer -q -c 0 cset name=Audio_Preamp2_Switch OPEN
+else
+    amixer -q -c 0 cset name=Audio_Preamp1_Switch IN_ADC1
+    amixer -q -c 0 cset name=Audio_Preamp2_Switch IN_ADC1
+fi
+LD_PRELOAD= arecord -q -D hw:0,1 -f S16_LE -r 48000 -c 2 -t raw "$fifo" 8>&- &
+recorder=$!
+printf '%s\n' "$$" >"$ready"
+seen=0
+closed=0
+elapsed=0
+while [ "$elapsed" -lt "$1" ]; do
+    if grep -q '^state: RUNNING' /proc/asound/card0/pcm1c/sub0/status; then
+        seen=1
+        closed=0
+    else
+        closed=$((closed + 1))
+        if [ "$seen" -eq 1 ] && [ "$closed" -ge 2 ]; then break; fi
+        if [ "$seen" -eq 0 ] && [ "$elapsed" -ge 10 ]; then break; fi
+    fi
+    sleep 1
+    elapsed=$((elapsed + 1))
+done

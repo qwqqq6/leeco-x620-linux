@@ -1,0 +1,368 @@
+{
+  "opt/codex/0.163.0/bin/codex": {
+    "file_sha256": "8a96f66d059d653e68bfd5f3c79337e6f1d7d170d80bf705eb7d0249b34c0ece",
+    "official_archive": "codex-0.163.0-aarch64-linux-musl.tar.gz",
+    "official_archive_sha256": "9d8ecf2d19d3e184877983902d6c85de48b3888dcb72c382a8a0c975845927fb",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libappstream.so.1.1.2": {
+    "file_sha256": "a5b4a316cbe23b935b5220c4d683954bc5bcf14a951cc13e2cc7b8ef9caaa0de",
+    "official_archive": "appstream-1.1.2-r0.apk",
+    "official_archive_sha256": "e8755c829f6d5b94ddde8299e48c8973d1d20e750bec6095d8b9edf2faa56640",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/libexec/colord": {
+    "file_sha256": "f117ca216e632ce33adeaf37fae9ace4d78e50793d60bd2944719971d4794427",
+    "official_archive": "colord-1.4.8-r4.apk",
+    "official_archive_sha256": "0a51e61673fae889139e08c508795512b56a5c0867f3710d36c2b1a95d99fa88",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libcamel-1.2.so.67.0.0": {
+    "file_sha256": "d41caffe2b6d7112c6b46c4fc40d1ee680309ebc5aa6e0e9560c54e60146312a",
+    "official_archive": "evolution-data-server-3.60.2-r2.apk",
+    "official_archive_sha256": "ff9a82d566a491bd21fb8371ba2f5e51d266365317f9b74d4b8a09c689ca22bb",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgcr-base-3.so.1.0.0": {
+    "file_sha256": "e8190325ca33cfeef4b1d47c92374f6bf347d1022b68de46755d237dc330a7ed",
+    "official_archive": "gcr-base-3.41.2-r2.apk",
+    "official_archive_sha256": "18094122b0dd6e3b711b570e9cd3b71186b99e14d64410304d2b5358c9afdebe",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgcr-ui-3.so.1.0.0": {
+    "file_sha256": "7518e5fa5cdc8a31b7aa0b6ddb7bce8a1ceadb8eaa98d9e862df36517d0a7f01",
+    "official_archive": "gcr-base-3.41.2-r2.apk",
+    "official_archive_sha256": "18094122b0dd6e3b711b570e9cd3b71186b99e14d64410304d2b5358c9afdebe",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgcr-4.so.4.4.0": {
+    "file_sha256": "dd4eceea56635527f77de66e21bf9fb45e9ae2254d605883efdb2a5a54e6cd58",
+    "official_archive": "gcr4-base-4.4.0.1-r1.apk",
+    "official_archive_sha256": "24599ee7f7785af0e65ab5f1c74dc009005823be4c06c68a07060a2e7ab67c8b",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/gnome-control-center": {
+    "file_sha256": "76be135fb8c05e9f0d0823a82468d221fb36522f2c76dbd1711bc1a7c5d9ea77",
+    "official_archive": "gnome-control-center-50.3-r0.apk",
+    "official_archive_sha256": "e0a881ea838a24e30684671fd5e597c8ab63eebf8978f8e39365758639470b79",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/gnome-keyring-daemon": {
+    "file_sha256": "898bbab9c3949069f241ac9dfe711a5e8e4b2477aaeee16859162fb6450faa52",
+    "official_archive": "gnome-keyring-50.0-r0.apk",
+    "official_archive_sha256": "f938c236ba1edc08d924851a76abbb9c232b6d0c0cbfe839576c89ffc3932c98",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/gnome-keyring/devel/gkm-gnome2-store-standalone.so": {
+    "file_sha256": "afc6a43e994613a10edc23da548c7385ea7ea2c420cadefc46541d447c0c0cf3",
+    "official_archive": "gnome-keyring-50.0-r0.apk",
+    "official_archive_sha256": "f938c236ba1edc08d924851a76abbb9c232b6d0c0cbfe839576c89ffc3932c98",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/gnome-keyring/devel/gkm-secret-store-standalone.so": {
+    "file_sha256": "14abfd3f1aac4b9fc9d8d30b7dc781405b23ca778908386b8f55a85fba07a9bc",
+    "official_archive": "gnome-keyring-50.0-r0.apk",
+    "official_archive_sha256": "f938c236ba1edc08d924851a76abbb9c232b6d0c0cbfe839576c89ffc3932c98",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/gnome-keyring/devel/gkm-ssh-store-standalone.so": {
+    "file_sha256": "69efb8dab59ca0422ce68f73a5b0f325fa637bdc6bb7aedc5208e9a5df9fd920",
+    "official_archive": "gnome-keyring-50.0-r0.apk",
+    "official_archive_sha256": "f938c236ba1edc08d924851a76abbb9c232b6d0c0cbfe839576c89ffc3932c98",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/gnome-keyring/devel/gkm-xdg-store-standalone.so": {
+    "file_sha256": "edd8899a162e693b444386e7b1508d76006235f6cefcbec4c3c82e43471a43ef",
+    "official_archive": "gnome-keyring-50.0-r0.apk",
+    "official_archive_sha256": "f938c236ba1edc08d924851a76abbb9c232b6d0c0cbfe839576c89ffc3932c98",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/dirmngr": {
+    "file_sha256": "2dbf6b7eeac5c7f1fcb0cc561433fe7b7e2692b3b78fd92d10addaee5915d97d",
+    "official_archive": "gnupg-dirmngr-2.4.9-r1.apk",
+    "official_archive_sha256": "fb68aea6c0ae04fbf2596cb2b7f4ffb81c2ff2ef40f021b1e923f3e5f41f9db4",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/libexec/keyboxd": {
+    "file_sha256": "16ea5c383ab12bd029ff2bac528f49934ae49c832c1744f2f9b7b2eccfbf40a7",
+    "official_archive": "gnupg-keyboxd-2.4.9-r1.apk",
+    "official_archive_sha256": "c74a165915276ba46e4a0aabe1089a98bff12261974c3a4400c421d8d39303bf",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgnutls.so.30.42.0": {
+    "file_sha256": "c105c97c329421b45b1afbfae7b72b6e0b22241637676a08c6e7119a5569a92b",
+    "official_archive": "gnutls-3.8.13-r0.apk",
+    "official_archive_sha256": "8678c104d4c08e7e41b5fcacdfdbffa208066bcb1c3f7f8b620e0a6bd22b3e40",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/gpg": {
+    "file_sha256": "ea699df78e0d469e1b5879a2e1b4cbddd4114c47e4d8c1e81b0107d6f3d59c56",
+    "official_archive": "gpg-2.4.9-r1.apk",
+    "official_archive_sha256": "d2d56001b3fe1be14491eefb3961e74d9921ac07f1f76831e2d196dd152773a7",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgpgme.so.45.0.1": {
+    "file_sha256": "013504ecfe821eb525c22fa94ab82af831ecabd306cef03bc7569a4920709da5",
+    "official_archive": "gpgme-2.0.1-r1.apk",
+    "official_archive_sha256": "b3ecaf43085400e7df742522e8a5ab5e152f77ec1ab54b07e773f74ec189514b",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/gpgsm": {
+    "file_sha256": "fdae7a5170a759feee0ce1dc2b5daceee78ce7e6b6dec03075076b0654af894b",
+    "official_archive": "gpgsm-2.4.9-r1.apk",
+    "official_archive_sha256": "af35cd2cec3fa528efeaba1db7ebdef76036fc80651988a8068126cefe75a052",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgdk-3.so.0.2420.32": {
+    "file_sha256": "53f842150c19c507fd8ab60f1b23fd18758e64b8c4766b2ae5cc551ca3e59e6a",
+    "official_archive": "gtk+3.0-3.24.52-r0.apk",
+    "official_archive_sha256": "f228f53f8da557919a194ea4c5a14d67289a83cf67cade80f30f57d4a8244c69",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libgtk-3.so.0.2420.32": {
+    "file_sha256": "fdb1fb4d3abc1321f6f93fda587e2aaa786c2bc5f0a7135cbe3317d7d853fb9f",
+    "official_archive": "gtk+3.0-3.24.52-r0.apk",
+    "official_archive_sha256": "f228f53f8da557919a194ea4c5a14d67289a83cf67cade80f30f57d4a8244c69",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/ibus/ibus-engine-libpinyin": {
+    "file_sha256": "692935615dee768f07a7ccfbdc6f6fd88fbda37289db25263d7363c8f27dcc7e",
+    "official_archive": "ibus-libpinyin-1.16.5-r0.apk",
+    "official_archive_sha256": "d1ae70d835c5a4ebe792f27faeb05ec7d3e055d1caaaf8f189e3a532ab009d8d",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/share/ibus-libpinyin/setup/ibus-libpinyin-preferences.ui": {
+    "file_sha256": "113c84dabd26ccf82bed034ee157e30987cf915b1e2a3e7c97668efa4c5b6d43",
+    "official_archive": "ibus-libpinyin-1.16.5-r0.apk",
+    "official_archive_sha256": "d1ae70d835c5a4ebe792f27faeb05ec7d3e055d1caaaf8f189e3a532ab009d8d",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libkrb5.so.3.3": {
+    "file_sha256": "c8037f7ee147d64ecbe9f5b4a7a7ec45cbcb1508817825d054a73d6d34ec8ee1",
+    "official_archive": "krb5-libs-1.22.2-r1.apk",
+    "official_archive_sha256": "6ea86f0c4b700fdd1880bf03c9b7651a1086a787f8a4573534840291240d31c6",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kccachetest": {
+    "file_sha256": "1945e6116e7a757aa7739e9412d6b7c23964c1720fd0b658d02501038134f22d",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kcdirtest": {
+    "file_sha256": "e790e89be8bbed32f2469671a71ee5213f03ffc8886b2db64291a26518c59fce",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kcforesttest": {
+    "file_sha256": "76e04937f09606f779da75e7800e7b56f23ca0122a54ccbdb8114ac0cb99800e",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kcgrasstest": {
+    "file_sha256": "a5dcde031c82ab57ddb02750cec9b75fd37e8f44231283cb7b587b614c0466cc",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kchashtest": {
+    "file_sha256": "61cd0ebcdb59360134055a3885b219511a69ef4215e31130fdadd3fc56169d37",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kcprototest": {
+    "file_sha256": "6d293a5b70c93102509d9bf75fb4553dabe2fe75e2d62ccec372fcd17cfb6435",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kcstashtest": {
+    "file_sha256": "bb4c6610f8f7fd69fe509e400bf3fc8427038045d6210678ae71dc383e7cc10f",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/kctreetest": {
+    "file_sha256": "b121124dbac7894638bd869eab52721777f365ea6a4f059a322b166a9e63ef7e",
+    "official_archive": "kyotocabinet-1.2.80-r1.apk",
+    "official_archive_sha256": "fba3d5c93c4269ac19e77dbe9b6337ab8458c3a348b2661a73912e3cd99bc39a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libphonenumber.so.9.0": {
+    "file_sha256": "c0e571172e31ca8296e40cb0bdf7cfeb6726cbd6774a470c67ed74ef3c04503b",
+    "official_archive": "libphonenumber-9.0.32-r0.apk",
+    "official_archive_sha256": "1cf13f2c8075dbb58312f7a0e7d521177c7122304784b7feffe911849910b76d",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/librsvg-2.so.2.62.3": {
+    "file_sha256": "98fe25aa82fc129532c60ff6fefd3fe3394439f8a578037b1e6368f87d039d19",
+    "official_archive": "librsvg-2.62.3-r0.apk",
+    "official_archive_sha256": "4ae23ee35c408d8a7467c8a96815c75bef70fb51d14be632c78c353f69579e04",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libLLVM.so.22.1": {
+    "file_sha256": "86c7b51e356826191f1cc3ea1c8b664c374256f2d68f80e4ec9d9df1c1ec8db2",
+    "official_archive": "llvm22-libs-22.1.3-r1.apk",
+    "official_archive_sha256": "6b1b25fdc82cd6d0e2fb57594d08d405569d4776e4b9c56012bd81f8dd90805a",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libostree-1.so.1.0.0": {
+    "file_sha256": "b4559623f930fec2f52a8e358dcf705aceecae6d9ee7156bafcd642a5c180a94",
+    "official_archive": "ostree-2025.7-r1.apk",
+    "official_archive_sha256": "e3cda3a8f0704d8e26cb9e7f08980ab6864da7398aad17d11800f34a1a904982",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/python3.14/pickletools.py": {
+    "file_sha256": "ea05191d23b25e32a4070f56ce146d207342f79dc0b509110d3ba519b191a02e",
+    "official_archive": "python3-3.14.8-r0.apk",
+    "official_archive_sha256": "fb5cc51e45afd7cc78b3189d8019a554e48c6751f0ccbe1aa551d6d94453db5c",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/python3.14/pydoc_data/topics.py": {
+    "file_sha256": "2962a15cff975852c6348f674cf309e4bd56d05dfafd18f921c19200b233ccc1",
+    "official_archive": "python3-3.14.8-r0.apk",
+    "official_archive_sha256": "fb5cc51e45afd7cc78b3189d8019a554e48c6751f0ccbe1aa551d6d94453db5c",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/python3.14/__pycache__/pickletools.cpython-314.pyc": {
+    "file_sha256": "cb16ceeabf290dad45dcf2c615c89334693eaabbd7f39ceeaaafd07a1a94f54e",
+    "official_archive": "python3-pycache-pyc0-3.14.8-r0.apk",
+    "official_archive_sha256": "1835aa8bdc8c03a58556053ca2ed23300babab08ce1cb7b7443e5fae0dc48cba",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/python3.14/pydoc_data/__pycache__/topics.cpython-314.pyc": {
+    "file_sha256": "1b1da2651e2583ca72407c4fc560dbc5fd482d962e7ace8041f4c44cfd40633e",
+    "official_archive": "python3-pycache-pyc0-3.14.8-r0.apk",
+    "official_archive_sha256": "1835aa8bdc8c03a58556053ca2ed23300babab08ce1cb7b7443e5fae0dc48cba",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/samba/libsamba-security-private-samba.so": {
+    "file_sha256": "bae63538bd61cac12beaf71a95de6ea54e1635e37992c06040e7dfd101345fc3",
+    "official_archive": "samba-libs-4.23.8-r0.apk",
+    "official_archive_sha256": "9de04d2faf49e8b6d5dc50bf9ebcda7ae5bb3353a59a25096db31707418a3df9",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/lib/libspandsp.so.2.0.0": {
+    "file_sha256": "4b17338024c12086df01cd75b21aa4e66e8c3c6e724001e85b602595edf4ae3f",
+    "official_archive": "spandsp-0.0.6-r5.apk",
+    "official_archive_sha256": "c26d7e2b01ac80b12c1b278f26e5f37b30a551b7de8d21cd5e159d6cbc6a45b0",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/squeekboard": {
+    "file_sha256": "ea825950d419ecfe4e46603401a9c5adcc44bffef845008518b3c1e5c72cdadf",
+    "official_archive": "squeekboard-1.43.1-r2.apk",
+    "official_archive_sha256": "7ebdfb78e8d51a7fb3395169c6693e267baf3579ae5a3e4afe038076bd9516ec",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/bin/squeekboard-test-layout": {
+    "file_sha256": "a8c0f9e62aa5548461d136b2b7f89fe923e72f101fa6d04861af4d09affcc14c",
+    "official_archive": "squeekboard-1.43.1-r2.apk",
+    "official_archive_sha256": "7ebdfb78e8d51a7fb3395169c6693e267baf3579ae5a3e4afe038076bd9516ec",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "usr/share/X11/xkb/symbols/kg": {
+    "file_sha256": "2612789b3aeb9cfec78ad7ae330fa15216a1165ca7f1f23cd7cf3af95c0b7e13",
+    "official_archive": "xkeyboard-config-2.47-r0.apk",
+    "official_archive_sha256": "a78c94324d215f874a6e6f29c3aa889f0755596ea952865f98ef64c06806a1c1",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-vk.so": {
+    "file_sha256": "94ea0c313b6d2798538d29c85cd1f44a8bd2d910f053b574096a170d491a331c",
+    "official_archive": "fcitx-module-x11_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "298cc51e366d65a72a38710cf4ebe326f2c9b6d4528ef85f9c2f10c5be2661f1",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-autoeng.so": {
+    "file_sha256": "ec89e5af23d6f33c1eaabe02614138e466ea1b37df98ced317d751752c2daf78",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-clipboard.so": {
+    "file_sha256": "13151c697f881246f0cc0813de684e3a69903d70382b84a3f80e4a386bfd53a4",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-imselector.so": {
+    "file_sha256": "8f220797c9e108afaf548c433848fd04d827f744d7e05832e16e09d7e10f7ded",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-keyboard.so": {
+    "file_sha256": "7085d432d7855522922985c5ac01df65dc6ad76b82c61838c7c090c0aeebe7f1",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-quickphrase.so": {
+    "file_sha256": "264c04a169dbbe6c587a63cec38d57290426b0b003116777ef0a3e76cfad4d42",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/fcitx/fcitx-unicode.so": {
+    "file_sha256": "850612c3beb4d376a4e1ffe91b8422e0e71dcb5d9306e80c77e7857db38a74d2",
+    "official_archive": "fcitx-modules_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "3649ab6aeef4033ef16396273441dfc5eae342a35120b4842271395c729dcab8",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/libfcitx-core.so.0.3": {
+    "file_sha256": "9bb504d1e976500dbe7229cc69023c3743f0fc64c63257d147e5d94895d6d798",
+    "official_archive": "libfcitx-core0_1%3a4.2.9.7-3_arm64.deb",
+    "official_archive_sha256": "6a76ac3284a149aa7f1574ad35e847f50f3a91ac3ff3ece329e2879171ed35fb",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/libkrb5.so.3.3": {
+    "file_sha256": "f0b87b6173cfb2286c02d165668d108393fab0b0f6ef6a54d52de9b0511e4df5",
+    "official_archive": "libkrb5-3_1.17-6ubuntu4.11_arm64.deb",
+    "official_archive_sha256": "c4f072347862881c835b47ac073e201deec40c980b5146696a87715029bad832",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/libwrap.so.0.7.6": {
+    "file_sha256": "adaf79819d3bcac63c75fc81b5a8abadf8f000e5155847913400a95775ba65c8",
+    "official_archive": "libwrap0_7.6.q-30_arm64.deb",
+    "official_archive_sha256": "563f7728346a0e2ef993f69e2264fe9b1ee5a10382e129ad1c04d4119600fd55",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/share/X11/xkb/symbols/ie": {
+    "file_sha256": "3721757814b4ff11b2644eb756e2316f6bb30011de182ea92f24ce01e04b5322",
+    "official_archive": "xkb-data_2.29-2_all.deb",
+    "official_archive_sha256": "890cc198b5a1023e3b3a879448524267d338b046a415bae7aff6216165bc4085",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/share/X11/xkb/symbols/kg": {
+    "file_sha256": "1e0e2a1cd5a634318afd9b5e87931f3ae5791e18da1f6314e9479a39f45396ba",
+    "official_archive": "xkb-data_2.29-2_all.deb",
+    "official_archive_sha256": "890cc198b5a1023e3b3a879448524267d338b046a415bae7aff6216165bc4085",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/share/X11/xkb/symbols/kh": {
+    "file_sha256": "db3ddd4f1fcff338cb8fec1de0d52a660c1a91f884508a5576c6b97f740fdb9a",
+    "official_archive": "xkb-data_2.29-2_all.deb",
+    "official_archive_sha256": "890cc198b5a1023e3b3a879448524267d338b046a415bae7aff6216165bc4085",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/bin/gpgv": {
+    "file_sha256": "80eea39791ae061189a81bbaeeca06adccedbf0138ceaac065127fead2abc332",
+    "official_archive": "ubuntu-base-20.04.5-base-arm64.tar.gz",
+    "official_archive_sha256": "f9b999afb4c4b10193087ea8c11be36d688f19e609b05179b571f29357954b52",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/bin/zforce": {
+    "file_sha256": "545a6829f7ee0a26605fcfb9a65042ad7265d21beabd8c696c0885ca81cffba7",
+    "official_archive": "ubuntu-base-20.04.5-base-arm64.tar.gz",
+    "official_archive_sha256": "f9b999afb4c4b10193087ea8c11be36d688f19e609b05179b571f29357954b52",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  },
+  "opt/native-compat/iflytek-focal/usr/lib/aarch64-linux-gnu/libgnutls.so.30.27.0": {
+    "file_sha256": "bfae5cef23b5188646d5b98ea9d4cad0351719bc673198b5466f159f2ce573f5",
+    "official_archive": "ubuntu-base-20.04.5-base-arm64.tar.gz",
+    "official_archive_sha256": "f9b999afb4c4b10193087ea8c11be36d688f19e609b05179b571f29357954b52",
+    "reason": "unchanged upstream code/data reference; not a personal credential file"
+  }
+}

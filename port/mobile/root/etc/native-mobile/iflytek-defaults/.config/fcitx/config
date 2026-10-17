@@ -1,0 +1,7 @@
+[Hotkey]
+SwitchKey=Disabled
+[Program]
+DefaultInputMethodState=Active
+[Output]
+CandidateWordNumber=5
+DontCommitPreeditWhenUnfocus=True

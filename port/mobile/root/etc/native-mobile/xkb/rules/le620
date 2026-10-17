@@ -1,0 +1,4 @@
+! include %S/evdev
+
+! option = symbols
+  le620:nopower = +le620(nopower)

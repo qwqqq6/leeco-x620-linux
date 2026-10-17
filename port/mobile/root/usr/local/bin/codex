@@ -1,0 +1,9 @@
+#!/bin/sh
+# Keep credentials out of command arguments and desktop launchers.
+set -eu
+key_file="${HOME}/.config/native-codex/api-key"
+if [ -r "$key_file" ]; then
+    LE620_CODEX_API_KEY=$(cat "$key_file")
+    export LE620_CODEX_API_KEY
+fi
+exec /opt/codex/0.163.0/bin/codex "$@"

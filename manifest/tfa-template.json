@@ -1,0 +1,49 @@
+{
+  "regions": [
+    {
+      "source": "coldboot.patch",
+      "source_sha256": "bde1625ccb294878bd25d0eb7d934059505bd788a540f8f0795d8cacb2546058",
+      "encoding": "raw",
+      "offset": 9593,
+      "bytes": 16
+    },
+    {
+      "source": "TFA9890_N1C3_1_7_1.patch",
+      "source_sha256": "c3a877c4e5761b04eeab52fb77ca6949941b0feddbe0cdc7a6165fa4945f287f",
+      "encoding": "raw",
+      "offset": 9609,
+      "bytes": 2174
+    },
+    {
+      "source": "KS_13X18_DUMBO.speaker",
+      "source_sha256": "4427c1b689882562fa296ed0bebe15a2dad6b73ad813b0f47cfd5cec756a660d",
+      "encoding": "raw",
+      "offset": 11783,
+      "bytes": 423
+    },
+    {
+      "source": "TFA9890_N1B12_N1C3_v2.config",
+      "source_sha256": "67dc5b3c692b98ec3ea6616b28b7593369c7beb43ac4dcec80b0584a1beddc1f",
+      "encoding": "raw",
+      "offset": 12206,
+      "bytes": 201
+    },
+    {
+      "source": "Example_0_0.KS_13X18_DUMBO.preset",
+      "source_sha256": "f475593dd8ad0e84f0d1f205c88b6dbb884f8d55d6ca37a7448f52d9ef9bb166",
+      "encoding": "raw",
+      "offset": 12407,
+      "bytes": 87
+    },
+    {
+      "source": "Example_0_0.KS_13X18_DUMBO.eq",
+      "source_sha256": "84c3d0181b2fa2070d3916d024f5aeaf65ffe9884ffb11e073db9be807fda5a4",
+      "encoding": "eq-f32le",
+      "offset": 12496,
+      "bytes": 200
+    }
+  ],
+  "reconstructed_sha256": "453eea7d87f22478ba403881ea033b8a16284ade02ed30952ef5d5bf2a045a24",
+  "template_contains_vendor_firmware": false,
+  "vendor_regions_replaced_with_zeroes": true
+}

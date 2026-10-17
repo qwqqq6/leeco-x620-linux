@@ -1,0 +1,424 @@
+# Language: Englisch (US)
+---
+outlines:
+    default:       { width: 40.41,   height: 52     }
+    action:        { width: 67.35,   height: 52     }
+    change-view:   { width: 60.615,  height: 52     }
+    change-view-2: { width: 67.35,   height: 52     }
+    halfwidth:     { width: 20.205,  height: 52     }
+    large:         { width: 60.615,  height: 52     }
+    narrow:        { width: 30.307,  height: 52     }
+    small-row:     { width: 50.512,  height: 27.725 }
+    spaceline:     { width: 87.555,  height: 52     }
+    special:       { width: 60.615,  height: 52     }
+    special-2:     { width: 60.615,  height: 52     }
+    special-3:     { width: 67.35,   height: 52     }
+
+    nine-key: { width: 97, height: 52 }
+    nine-space: { width: 188, height: 52 }
+    input-toggle: { width: 60.615, height: 52 }
+
+views:
+    base:
+        - "Tab-small Ctrl Alt Shift ↑ ↓ ← →"
+        - "q w e r t y u i o p"
+        - ".-thin a s d f g h j k l --thin"
+        - "show_upper z x c v b n m BackSpace"
+        - "show_numbers toggle_pinyin show_nine space show_actions Return"
+    upper:
+        - "Tab-small Ctrl Alt Shift PageUp PageDown Home End"
+        - "Q W E R T Y U I O P"
+        - "/-thin A S D F G H J K L |-thin"
+        - "show_upper Z X C V B N M BackSpace"
+        - "show_numbers toggle_pinyin show_nine space show_actions Return"
+    numbers:
+        - "Tab-small Ctrl Alt Shift ↑ ↓ ← →"
+        - "1 2 3 4 5 6 7 8 9 0"
+        - "\\ * # $ / & - + ( ) _"
+        - "show_symbols , \" ' : ; ! ? BackSpace"
+        - "show_letters toggle_pinyin show_nine space . Return"
+    symbols:
+        - "Tab-small Ctrl Alt Shift ↑ ↓ ← →"
+        - "~ ` · √ π τ ÷ × ¶ @"
+        - "\\ © ® £ € ¥ ^ ° { } _"
+        - "show_numbers_from_symbols % | < > = [ ] BackSpace"
+        - "show_letters toggle_pinyin show_nine space . Return"
+    actions:
+        - "Tab-small Ctrl Alt Shift PageUp PageDown Home End"
+        - "F1  F2  F3  F4  F5  F6"
+        - "F7  F8  F9  F10 F11 F12"
+        - "Esc Tab Pause Insert Up Del"
+        - "show_letters_actions Menu Break Left Down Right"
+
+    nine:
+        - "nine_sep nine_abc nine_def BackSpace"
+        - "nine_ghi nine_jkl nine_mno nine_comma"
+        - "nine_pqrs nine_tuv nine_wxyz Return"
+        - "show_numbers toggle_pinyin show_letters nine_space"
+
+buttons:
+    show_nine:
+        action:
+            set_view: "nine"
+        label: "9键"
+        outline: "special"
+    nine_space:
+        outline: "nine-space"
+        keysym: "space"
+        label: " "
+    nine_sep:
+        outline: "nine-key"
+        keysym: "apostrophe"
+        label: "1 分词"
+    nine_comma:
+        outline: "special-2"
+        keysym: "comma"
+        label: "，"
+    show_upper:
+        action:
+            locking:
+                lock_view: "upper"
+                unlock_view: "base"
+        outline: "change-view"
+        icon: "key-shift"
+    BackSpace:
+        outline: "special-2"
+        icon: "edit-clear-symbolic"
+        keysym: "BackSpace"
+    preferences:
+        action: "show_prefs"
+        outline: "special"
+        icon: "keyboard-mode-symbolic"
+    show_numbers:
+        action:
+            set_view: "numbers"
+        outline: "change-view-2"
+        label: "123"
+    show_numbers_from_symbols:
+        action:
+            set_view: "numbers"
+        outline: "change-view"
+        label: "123"
+    show_letters:
+        action:
+            set_view: "base"
+        outline: "change-view-2"
+        label: "26键"
+    show_letters_actions:
+        action:
+            set_view: "base"
+        outline: "change-view-2"
+        label: "26键"
+    show_symbols:
+        action:
+            set_view: "symbols"
+        outline: "change-view"
+        label: "τ=\\"
+    show_actions:
+        action:
+            set_view: "actions"
+        outline: "change-view"
+        label: ">_"
+    .:
+        outline: "large"
+        keysym: "period"
+    space:
+        outline: "spaceline"
+        keysym: "space"
+        label: " "
+    Return:
+        outline: "special-3"
+        icon: "key-enter"
+        keysym: "Return"
+    F1:
+        outline: "action"
+        keysym: "F1"
+    F2:
+        outline: "action"
+        keysym: "F2"
+    F3:
+        outline: "action"
+        keysym: "F3"
+    F4:
+        outline: "action"
+        keysym: "F4"
+    F5:
+        outline: "action"
+        keysym: "F5"
+    F6:
+        outline: "action"
+        keysym: "F6"
+    F7:
+        outline: "action"
+        keysym: "F7"
+    F8:
+        outline: "action"
+        keysym: "F8"
+    F9:
+        outline: "action"
+        keysym: "F9"
+    F10:
+        outline: "action"
+        keysym: "F10"
+    F11:
+        outline: "action"
+        keysym: "F11"
+    F12:
+        outline: "action"
+        keysym: "F12"
+    Esc:
+        outline: "action"
+        keysym: "Escape"
+    Tab:
+        outline: "action"
+        keysym: "Tab"
+    Tab-small:
+        outline: "small-row"
+        keysym: "Tab"
+        label: "Tab"
+    Del:
+        outline: "action"
+        keysym: "Delete"
+    Insert:
+        outline: "action"
+        keysym: "Insert"
+    Menu:
+        outline: "action"
+        keysym: "Menu"
+    Pause:
+        outline: "action"
+        keysym: "Pause"
+    Break:
+        outline: "action"
+        keysym: "Break"
+    Home:
+        outline: "small-row"
+        keysym: "Home"
+    End:
+        outline: "small-row"
+        keysym: "End"
+    PageUp:
+        outline: "small-row"
+        keysym: "Page_Up"
+        label: "Page ↑"
+    PageDown:
+        outline: "small-row"
+        keysym: "Page_Down"
+        label: "Page ↓"
+    "↑":
+        outline: "small-row"
+        keysym: "Up"
+    "↓":
+        outline: "small-row"
+        keysym: "Down"
+    "←":
+        outline: "small-row"
+        keysym: "Left"
+    "→":
+        outline: "small-row"
+        keysym: "Right"
+    Up:
+        label: "↑"
+        outline: "action"
+        keysym: "Up"
+    Left:
+        label: "←"
+        outline: "action"
+        keysym: "Left"
+    Down:
+        label: "↓"
+        outline: "action"
+        keysym: "Down"
+    Right:
+        label: "→"
+        outline: "action"
+        keysym: "Right"
+    Ctrl:
+        modifier: "Control"
+        outline: "small-row"
+        label: "Ctrl"
+    Alt:
+        modifier: "Alt"
+        outline: "small-row"
+        label: "Alt"
+    Shift:
+        modifier: "Shift"
+        outline: "small-row"
+        label: "Shift"
+    --thin:
+        outline: "halfwidth"
+        text: "-"
+    /-thin:
+        outline: "halfwidth"
+        text: "/"
+    "|-thin":
+        outline: "halfwidth"
+        text: "|"
+    .-thin:
+        outline: "halfwidth"
+        text: "."
+    "\\":
+        outline: "halfwidth"
+    _:
+        outline: "halfwidth"
+
+    toggle_pinyin:
+        label: "中"
+        keysym: "Shift_L"
+        outline: "input-toggle"
+    "a":
+        keysym: "a"
+    "b":
+        keysym: "b"
+    "c":
+        keysym: "c"
+    "d":
+        keysym: "d"
+    "e":
+        keysym: "e"
+    "f":
+        keysym: "f"
+    "g":
+        keysym: "g"
+    "h":
+        keysym: "h"
+    "i":
+        keysym: "i"
+    "j":
+        keysym: "j"
+    "k":
+        keysym: "k"
+    "l":
+        keysym: "l"
+    "m":
+        keysym: "m"
+    "n":
+        keysym: "n"
+    "o":
+        keysym: "o"
+    "p":
+        keysym: "p"
+    "q":
+        keysym: "q"
+    "r":
+        keysym: "r"
+    "s":
+        keysym: "s"
+    "t":
+        keysym: "t"
+    "u":
+        keysym: "u"
+    "v":
+        keysym: "v"
+    "w":
+        keysym: "w"
+    "x":
+        keysym: "x"
+    "y":
+        keysym: "y"
+    "z":
+        keysym: "z"
+    "A":
+        keysym: "A"
+    "B":
+        keysym: "B"
+    "C":
+        keysym: "C"
+    "D":
+        keysym: "D"
+    "E":
+        keysym: "E"
+    "F":
+        keysym: "F"
+    "G":
+        keysym: "G"
+    "H":
+        keysym: "H"
+    "I":
+        keysym: "I"
+    "J":
+        keysym: "J"
+    "K":
+        keysym: "K"
+    "L":
+        keysym: "L"
+    "M":
+        keysym: "M"
+    "N":
+        keysym: "N"
+    "O":
+        keysym: "O"
+    "P":
+        keysym: "P"
+    "Q":
+        keysym: "Q"
+    "R":
+        keysym: "R"
+    "S":
+        keysym: "S"
+    "T":
+        keysym: "T"
+    "U":
+        keysym: "U"
+    "V":
+        keysym: "V"
+    "W":
+        keysym: "W"
+    "X":
+        keysym: "X"
+    "Y":
+        keysym: "Y"
+    "Z":
+        keysym: "Z"
+    "0":
+        keysym: "0"
+    "1":
+        keysym: "1"
+    "2":
+        keysym: "2"
+    "3":
+        keysym: "3"
+    "4":
+        keysym: "4"
+    "5":
+        keysym: "5"
+    "6":
+        keysym: "6"
+    "7":
+        keysym: "7"
+    "8":
+        keysym: "8"
+    "9":
+        keysym: "9"
+    nine_abc:
+        outline: "nine-key"
+        keysym: "F13"
+        label: "2 ABC"
+    nine_def:
+        outline: "nine-key"
+        keysym: "F14"
+        label: "3 DEF"
+    nine_ghi:
+        outline: "nine-key"
+        keysym: "F15"
+        label: "4 GHI"
+    nine_jkl:
+        outline: "nine-key"
+        keysym: "F16"
+        label: "5 JKL"
+    nine_mno:
+        outline: "nine-key"
+        keysym: "F17"
+        label: "6 MNO"
+    nine_pqrs:
+        outline: "nine-key"
+        keysym: "F18"
+        label: "7 PQRS"
+    nine_tuv:
+        outline: "nine-key"
+        keysym: "F19"
+        label: "8 TUV"
+    nine_wxyz:
+        outline: "nine-key"
+        keysym: "F20"
+        label: "9 WXYZ"

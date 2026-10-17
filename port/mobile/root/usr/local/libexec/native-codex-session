@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+printf '%s\n' 'Codex 使用普通桌面用户运行；此旧内核不支持原生沙箱。'
+printf '%s\n' '操作范围是此用户可访问的文件，请在专用项目目录使用。'
+printf '%s\n\n' '工作目录：~/Projects/codex；输入内容后按回车发送。'
+exec /usr/local/bin/codex --no-alt-screen "$@"

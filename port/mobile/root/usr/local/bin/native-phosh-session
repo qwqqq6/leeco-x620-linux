@@ -1,0 +1,19 @@
+#!/bin/sh
+# Full Phosh shell on wlroots' X11/pixman path over the working MTK fbdev Xorg.
+set -eu
+export XDG_CURRENT_DESKTOP=Phosh:GNOME XDG_SESSION_DESKTOP=phosh
+export XDG_SESSION_TYPE=wayland
+export WLR_BACKENDS=x11 WLR_RENDERER=pixman WLR_X11_OUTPUTS=1
+export PHOC_DEBUG=fake-builtin
+export PULSE_CLIENTCONFIG=/etc/native-mobile/pulse-client.conf
+export XKB_CONFIG_EXTRA_PATH=/etc/native-mobile/xkb
+export XKB_DEFAULT_RULES=le620 XKB_DEFAULT_OPTIONS=le620:nopower
+unset GTK_IM_MODULE GDK_SCALE GDK_DPI_SCALE
+# The root panel controller owns short presses. Do not also let Phosh blank
+# its nested output when it receives the same physical key via Xorg.
+# wlroots only looks up pre-existing X11 atoms. Prime them on this bare Xorg.
+xprop -root -f _NET_WM_NAME 8u -set _NET_WM_NAME 'Le620 Linux'
+xprop -root -f _VARIABLE_REFRESH 32c -set _VARIABLE_REFRESH 0
+xprop -root -f WM_PROTOCOLS 32a -set WM_PROTOCOLS WM_DELETE_WINDOW
+exec dbus-run-session -- phoc -S -C /etc/native-mobile/phoc.ini \
+    --socket wayland-0 -E /usr/local/libexec/native-phosh-shell
